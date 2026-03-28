@@ -18,3 +18,8 @@ scripts/
 writeup_paste.*
 .commitmsg
 *.bak
+_kaggle_kernel/
+dataset-metadata.json
+VIDEO_SCRIPT.md
+WRITEUP.md
+SPACE_README.md
