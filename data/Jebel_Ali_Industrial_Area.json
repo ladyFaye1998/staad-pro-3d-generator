@@ -1,0 +1,504 @@
+{
+  "success": true,
+  "data": [
+    {
+      "process_id": "259f059c-06aa-4de3-97cd-d4f03fd5bb12",
+      "process_type": "qrf",
+      "version_list": [
+        {
+          "process_id": "259f059c-06aa-4de3-97cd-d4f03fd5bb12",
+          "project_id": "PROJECT049304",
+          "process_type": "qrf",
+          "process_json": {},
+          "previous_json": {
+            "meta": {
+              "QRFNumber": "NA",
+              "Location": "NA",
+              "CompanyName": "NA",
+              "ClientName": "NA",
+              "IndustryType": "Manufacturing Plant"
+            },
+            "sections": {
+              "Building Parameters Details (Plant Building)": [
+                {
+                  "slNo": "1",
+                  "desc": "Type",
+                  "details": "Pre-Engineered Steel Building"
+                },
+                {
+                  "slNo": "2",
+                  "desc": "Width (m)",
+                  "details": "30 m"
+                },
+                {
+                  "slNo": "3",
+                  "desc": "Length (m)",
+                  "details": "45 m"
+                },
+                {
+                  "slNo": "4",
+                  "desc": "Eave height (m)",
+                  "details": "6 m"
+                },
+                {
+                  "slNo": "5",
+                  "desc": "Width Module",
+                  "details": "6 m"
+                },
+                {
+                  "slNo": "6",
+                  "desc": "Roof Slope",
+                  "details": "1:12"
+                },
+                {
+                  "slNo": "7",
+                  "desc": "Bay spacing (m) - Side wall",
+                  "details": "6 m"
+                },
+                {
+                  "slNo": "8",
+                  "desc": "Bay spacing (m) - Intermediate",
+                  "details": "6 m"
+                },
+                {
+                  "slNo": "9",
+                  "desc": "End Wall Col Spacing - both endwalls",
+                  "details": "6 m"
+                },
+                {
+                  "slNo": "10",
+                  "desc": "Type of Brace in Side walls, Roof",
+                  "details": "Cross Bracing"
+                },
+                {
+                  "slNo": "11",
+                  "desc": "Type of Eave",
+                  "details": "Purlin Eave"
+                },
+                {
+                  "slNo": "12",
+                  "desc": "Downtake Pipes",
+                  "details": "2"
+                },
+                {
+                  "slNo": "13",
+                  "desc": "Fascia",
+                  "details": "0.5 m"
+                },
+                {
+                  "slNo": "14",
+                  "desc": "Minimum Thickness Built up sections",
+                  "details": "6 mm"
+                },
+                {
+                  "slNo": "15",
+                  "desc": "Minimum Thickness Secondary",
+                  "details": "4 mm"
+                },
+                {
+                  "slNo": "16",
+                  "desc": "Additional Structure (False ceiling)",
+                  "details": "Yes"
+                },
+                {
+                  "slNo": "17",
+                  "desc": "Future Expansion along Width, Length",
+                  "details": "Yes"
+                }
+              ],
+              "Design Loads Details": [
+                {
+                  "slNo": "1",
+                  "desc": "Design code",
+                  "details": "AISC 360-16"
+                },
+                {
+                  "slNo": "2",
+                  "desc": "Design Live load (kN/sqm) on Roof",
+                  "details": "1.5 kN/sqm"
+                },
+                {
+                  "slNo": "3",
+                  "desc": "Design Live load (kN/sqm) on Frame",
+                  "details": "3.0 kN/sqm"
+                },
+                {
+                  "slNo": "4",
+                  "desc": "Dead Load (kN/sqm)",
+                  "details": "1.0 kN/sqm"
+                },
+                {
+                  "slNo": "5",
+                  "desc": "Wind Speed (km/hr)",
+                  "details": "160 km/hr"
+                },
+                {
+                  "slNo": "6",
+                  "desc": "Collateral load (kN/sqm)",
+                  "details": "0.5 kN/sqm"
+                },
+                {
+                  "slNo": "7",
+                  "desc": "Utility Load on Columns/Rafter",
+                  "details": "0.5 kN/sqm"
+                },
+                {
+                  "slNo": "8",
+                  "desc": "Temperature Load",
+                  "details": "As per local code"
+                },
+                {
+                  "slNo": "9",
+                  "desc": "Earthquake/Seismic zone",
+                  "details": "Zone 2"
+                },
+                {
+                  "slNo": "10",
+                  "desc": "Rainfall Intensity (cm/hour)",
+                  "details": "5 cm/hour"
+                },
+                {
+                  "slNo": "11",
+                  "desc": "Load Combination",
+                  "details": "DL   LL   WL"
+                },
+                {
+                  "slNo": "12",
+                  "desc": "Deflection limit",
+                  "details": "L/240"
+                },
+                {
+                  "slNo": "13",
+                  "desc": "Site locations",
+                  "details": "Base Station Coordinates (Geographic): Latitude: -12.80974218, Longitude: 28.21102803, Elevation: 1213.946"
+                }
+              ],
+              "Brick Wall Conditions Details": [
+                {
+                  "slNo": "1",
+                  "desc": "Front Side wall (Along Grid Line A)",
+                  "details": "Brick veneer with steel studs"
+                },
+                {
+                  "slNo": "2",
+                  "desc": "Back Side wall (Along Grid Line E)",
+                  "details": "Brick veneer with steel studs"
+                },
+                {
+                  "slNo": "3",
+                  "desc": "Right End wall (Along Grid Line 11)",
+                  "details": "Brick veneer with steel studs"
+                },
+                {
+                  "slNo": "4",
+                  "desc": "Left End wall (Along Grid Line 1)",
+                  "details": "Brick veneer with steel studs"
+                }
+              ],
+              "Accessories Details": [
+                {
+                  "slNo": "1",
+                  "desc": "2 mm thick polycarbonate sheets (skylights). GI weld mesh to be considered below the translucent sheet for safety / fall protection system for roof only.",
+                  "details": "Yes"
+                },
+                {
+                  "slNo": "2",
+                  "desc": "Wall lights 2 mm thick translucent polycarbonate sheet",
+                  "details": "Yes"
+                },
+                {
+                  "slNo": "3",
+                  "desc": "Cage Ladder (Lockable and key arrangement)",
+                  "details": "Yes"
+                },
+                {
+                  "slNo": "4",
+                  "desc": "A type louvers with weldmesh",
+                  "details": "Yes"
+                },
+                {
+                  "slNo": "5",
+                  "desc": "Framed Opening for Window",
+                  "details": "Yes"
+                },
+                {
+                  "slNo": "6",
+                  "desc": "Framed Opening for Rolling Shutter",
+                  "details": "Yes"
+                },
+                {
+                  "slNo": "7",
+                  "desc": "Life Line",
+                  "details": "Yes"
+                },
+                {
+                  "slNo": "8",
+                  "desc": "Roof Insulation",
+                  "details": "Yes"
+                },
+                {
+                  "slNo": "9",
+                  "desc": "Wall Insulation",
+                  "details": "Yes"
+                }
+              ],
+              "Canopy Details - Forward type canopy with liner panel in soffit , without insulation.": [
+                {
+                  "slNo": "1",
+                  "desc": "Location",
+                  "details": "Front of the building"
+                },
+                {
+                  "slNo": "2",
+                  "desc": "Width (m)",
+                  "details": "10 m"
+                },
+                {
+                  "slNo": "3",
+                  "desc": "Length (m)",
+                  "details": "30 m"
+                },
+                {
+                  "slNo": "4",
+                  "desc": "Clear height (m)",
+                  "details": "4 m"
+                },
+                {
+                  "slNo": "5",
+                  "desc": "Canopy roof panel",
+                  "details": "Metal deck"
+                },
+                {
+                  "slNo": "6",
+                  "desc": "Soffit panel fixed below the rafter",
+                  "details": "Yes"
+                },
+                {
+                  "slNo": "7",
+                  "desc": "Eave Condition",
+                  "details": "Closed"
+                },
+                {
+                  "slNo": "8",
+                  "desc": "Front Fascia",
+                  "details": "Steel fascia"
+                }
+              ],
+              "Framed Opening Details": [
+                {
+                  "slNo": "1",
+                  "desc": "Location",
+                  "details": "North and South walls"
+                },
+                {
+                  "slNo": "2",
+                  "desc": "Size",
+                  "details": "3 m x 3 m"
+                }
+              ],
+              "Surface Preparation Details": [
+                {
+                  "slNo": "1",
+                  "desc": "Primary",
+                  "details": "Sandblasting"
+                },
+                {
+                  "slNo": "2",
+                  "desc": "Secondary",
+                  "details": "Chemical cleaning"
+                }
+              ],
+              "Painting Details": [
+                {
+                  "slNo": "1",
+                  "desc": "Primary",
+                  "details": "Epoxy paint"
+                },
+                {
+                  "slNo": "2",
+                  "desc": "Secondary",
+                  "details": "Polyurethane paint"
+                },
+                {
+                  "slNo": "3",
+                  "desc": "Anchor bolts",
+                  "details": "Zinc-coated"
+                }
+              ],
+              "Crane Details": [
+                {
+                  "slNo": "1",
+                  "desc": "Nos of Crane",
+                  "details": "2"
+                }
+              ],
+              "Partition Wall Details": [
+                {
+                  "slNo": "1",
+                  "desc": "Partition Wall",
+                  "details": "Steel stud partition"
+                },
+                {
+                  "slNo": "2",
+                  "desc": "Wall condition",
+                  "details": "Insulated"
+                },
+                {
+                  "slNo": "3",
+                  "desc": "Sheeting",
+                  "details": "Gypsum board"
+                }
+              ],
+              "Mezzanine Floor Details": [
+                {
+                  "slNo": "1",
+                  "desc": "Mezzanine Size",
+                  "details": "10 m x 20 m"
+                },
+                {
+                  "slNo": "2",
+                  "desc": "Mezzanine Column Spacing",
+                  "details": "6 m"
+                },
+                {
+                  "slNo": "3",
+                  "desc": "Height",
+                  "details": "2.5 m"
+                },
+                {
+                  "slNo": "4",
+                  "desc": "Live Load",
+                  "details": "5.0 kN/sqm"
+                },
+                {
+                  "slNo": "5",
+                  "desc": "Dead Load",
+                  "details": "2.0 kN/sqm"
+                },
+                {
+                  "slNo": "6",
+                  "desc": "Collateral Load",
+                  "details": "0.5 kN/sqm"
+                },
+                {
+                  "slNo": "7",
+                  "desc": "Staircase and Handrails",
+                  "details": "Yes"
+                },
+                {
+                  "slNo": "8",
+                  "desc": "Handrails on Mezzanine",
+                  "details": "Yes"
+                },
+                {
+                  "slNo": "9",
+                  "desc": "Chaqured Plate",
+                  "details": "Yes"
+                },
+                {
+                  "slNo": "10",
+                  "desc": "Deck Sheet",
+                  "details": "Metal deck"
+                },
+                {
+                  "slNo": "11",
+                  "desc": "Lift Cutout at mezzanine level",
+                  "details": "Yes"
+                }
+              ]
+            },
+            "Notes": [
+              "Contains critical discrepancies between drawing-based values and source documents requiring review.",
+              "Building Width: Source (Source Document): 30 m | Drawing-based: 24.38 m. Status: INCONSISTENT. A conflict exists between the source document value (30 m) and the verified drawing dimension (24.38 m).",
+              "Building Length: Source (Source Document): 45 m | Drawing-based: 30.48 m. Status: INCONSISTENT. A conflict exists between the source document value (45 m) and the verified drawing dimension (30.48 m).",
+              "Eave height (m): Source (Source Document): 6 m | Drawing-based: Not Found. Status: INCONSISTENT. The source-specified eave height of 6 m could not be verified on the provided drawings.",
+              "Bay Spacing: Source (Source Document): 6 m (uniform) | Drawing-based (End Bays): 7.205 m | Drawing-based (Intermediate Bays): 7.62 m. Status: INCONSISTENT. The source specifies a single uniform spacing, which conflicts with the two distinct spacings found on the drawings.",
+              "Building Width: Source document specifies 30 m; drawings show a dimension of 24.38 m. Impact: The correct overall building width must be confirmed.",
+              "Building Length: Source document specifies 45 m; drawings show a dimension of 30.48 m. Impact: The correct overall building length must be confirmed.",
+              "Eave height (m): Source document specifies 6 m, but this dimension is not present on the drawings. Impact: The correct eave height must be clarified.",
+              "Bay Spacing: Source specifies a uniform 6 m spacing; drawings show two different spacings (7.205 m and 7.62 m). Impact: The correct bay spacing configuration must be confirmed.",
+              "Data contains unresolved discrepancies between source documents and drawings; values are unconfirmed and require review.",
+              "ef tre rtr rg ujhjub"
+            ],
+            "MarketingContact": "NA"
+          },
+          "comment_json": {},
+          "version": 1,
+          "file_hash": null,
+          "status": "timeout",
+          "is_bot": true,
+          "verified_by": null,
+          "verified_at": null,
+          "approved_by": null,
+          "approved_at": null,
+          "created_at": "2026-01-16T18:19:35",
+          "updated_at": "2026-01-16T20:19:54",
+          "endTime": null,
+          "created_by": "692729d81e26bc74fe51d0ee",
+          "created_by_name": "Pushpendu Jana",
+          "last_modified_by": "692729d81e26bc74fe51d0ee",
+          "webhook_source": "regenerate-qrf",
+          "metadata": {
+            "file_count": 1,
+            "supporting_files_count": 1,
+            "qrf_files_count": 0,
+            "original_file_ids": [
+              "39828b80-5c04-464b-88ec-3c2bc7669fd2"
+            ],
+            "company_ids": [
+              "TESTNENDN1"
+            ],
+            "file_details": [
+              {
+                "file_id": "39828b80-5c04-464b-88ec-3c2bc7669fd2",
+                "file_path": "PROJECT049304/TESTNENDN1/da892f12-7424-430f-a786-50d5f9827ef6.csv",
+                "company_id": "TESTNENDN1",
+                "filename": "STAND 301.csv",
+                "is_qrf": false
+              }
+            ],
+            "company_file_mapping": {
+              "TESTNENDN1": {
+                "file_ids": [
+                  "39828b80-5c04-464b-88ec-3c2bc7669fd2"
+                ],
+                "file_paths": [
+                  "PROJECT049304/TESTNENDN1/da892f12-7424-430f-a786-50d5f9827ef6.csv"
+                ],
+                "filenames": [
+                  "STAND 301.csv"
+                ],
+                "qrf_files": [],
+                "supporting_files": [
+                  {
+                    "file_id": "39828b80-5c04-464b-88ec-3c2bc7669fd2",
+                    "filename": "STAND 301.csv",
+                    "file_path": "PROJECT049304/TESTNENDN1/da892f12-7424-430f-a786-50d5f9827ef6.csv"
+                  }
+                ]
+              }
+            },
+            "company_statistics": {
+              "TESTNENDN1": {
+                "total_files": 1,
+                "qrf_count": 0,
+                "supporting_count": 1,
+                "total_size": 0.09
+              }
+            },
+            "mapped_extracted_files": {
+              "39828b80-5c04-464b-88ec-3c2bc7669fd2": "b59c0fad-ea27-4d43-b982-ad2fd68b82db"
+            },
+            "submitted_at": "2026-01-16T12:49:35.684556+00:00",
+            "reference_process_id": "90248542-d2b1-422b-8c6b-54f4315a16d8"
+          }
+        }
+      ]
+    }
+  ],
+  "status": 200,
+  "process_type": [
+    "boq",
+    "qrf"
+  ]
+}

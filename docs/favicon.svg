@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <rect width="64" height="64" rx="12" fill="#0d0d0d"/>
+  <!-- Building frame -->
+  <g stroke="#c9a84c" stroke-width="2.5" stroke-linecap="round" fill="none">
+    <!-- Left column -->
+    <line x1="14" y1="50" x2="14" y2="20"/>
+    <!-- Right column -->
+    <line x1="50" y1="50" x2="50" y2="20"/>
+    <!-- Center column -->
+    <line x1="32" y1="50" x2="32" y2="22"/>
+    <!-- Left rafter -->
+    <line x1="14" y1="20" x2="32" y2="12"/>
+    <!-- Right rafter -->
+    <line x1="50" y1="20" x2="32" y2="12"/>
+    <!-- Purlins -->
+    <line x1="23" y1="16" x2="23" y2="16" stroke-width="3"/>
+    <line x1="41" y1="16" x2="41" y2="16" stroke-width="3"/>
+    <!-- Girts -->
+    <line x1="14" y1="35" x2="50" y2="35" stroke-width="1.5" stroke-dasharray="2,3"/>
+    <!-- Base -->
+    <line x1="8" y1="50" x2="56" y2="50" stroke-width="3"/>
+  </g>
+  <!-- 3D hint lines (depth) -->
+  <g stroke="#c9a84c" stroke-width="1" opacity="0.4" fill="none">
+    <line x1="14" y1="20" x2="8" y2="16"/>
+    <line x1="50" y1="20" x2="44" y2="16"/>
+    <line x1="32" y1="12" x2="26" y2="8"/>
+  </g>
+</svg>

@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "staad-peb-generator"
+version = "0.2.0"
+description = "QRF JSON to STAAD.Pro PEB-style .std command files"
+requires-python = ">=3.10"
+dependencies = [
+    "plotly>=5.0",
+    "pandas>=1.5",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "coverage[toml]>=7.0"]
+app = ["gradio>=4.0"]
+fea = ["PyNiteFEA>=2.4"]
+ai = ["huggingface_hub>=0.20.0"]
+
+[project.scripts]
+staad-qrf = "staad_generator.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["staad_generator*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

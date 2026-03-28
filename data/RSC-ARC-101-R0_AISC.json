@@ -1,0 +1,528 @@
+{
+  "success": true,
+  "data": [
+    {
+      "process_id": "4752e4dc-9ae3-4b7f-866c-567275090e5b",
+      "process_type": "qrf",
+      "version_list": [
+        {
+          "process_id": "4752e4dc-9ae3-4b7f-866c-567275090e5b",
+          "project_id": "PROJECT038512",
+          "process_type": "qrf",
+          "process_json": {
+            "meta": {
+              "QRFNumber": "R4-R0",
+              "Location": "AT - CHHATA, MATHURA",
+              "CompanyName": "SIJCON",
+              "ClientName": "Not explicitly named",
+              "IndustryType": "Screen Printing Shed"
+            },
+            "sections": {
+              "Building Parameters Details (Plant Building)": [
+                {
+                  "slNo": "1",
+                  "desc": "Type",
+                  "details": "Pre-Engineered Building (PEB) system with PEB Steel Columns; All PEB Columns to be straight; Single-slope (monoslope) roof."
+                },
+                {
+                  "slNo": "2",
+                  "desc": "Width (m)",
+                  "details": "24.800 m (c/c); 14.970 m (c/c) of Column; Total Width (X1 to X7): 39.770 m."
+                },
+                {
+                  "slNo": "3",
+                  "desc": "Length (m)",
+                  "details": "115.250 m (c/c) of Column; 115.120 m calculated Y1 to Y16; 91.750 m Overall dimension in the Y-direction for Ground Floor Plan; 49.305 m another overall dimension along the right side of the plan for Ground Floor Plan."
+                },
+                {
+                  "slNo": "4",
+                  "desc": "Eave height (m)",
+                  "details": "13.0 m / 13.000 m Lvl Bott. of Knee; 9.00 m; 9.000 m (eave level for main production hall); 7.500 m Lvl Bottom of Knee; 10.776 m; 11.000 m (eave level)."
+                },
+                {
+                  "slNo": "5",
+                  "desc": "Width Module",
+                  "details": "[1@24.800 m] [1@14.970 m]"
+                },
+                {
+                  "slNo": "6",
+                  "desc": "Roof Slope",
+                  "details": "1:10 (inferred from 01:10:00); exact ratio is not specified; approx 1:10.52 (calculated from 3.780 m rise over 39.770 m run)."
+                },
+                {
+                  "slNo": "7",
+                  "desc": "Bay spacing (m) - Side wall",
+                  "details": "Between Y1-Y12: 11 bays of 7.645 m each; Between Y12-Y13: 7.655 m; Between Y13-Y14: 7.830 m; Between Y14-Y15: 7.840 m; Between Y15-Y16: 7.700 m; Consistently 7.645 m for Ground Floor Plan Y-direction bays."
+                },
+                {
+                  "slNo": "8",
+                  "desc": "Bay spacing (m) - Intermediate",
+                  "details": "NA"
+                },
+                {
+                  "slNo": "9",
+                  "desc": "End Wall Col Spacing - both endwalls",
+                  "details": "Between X1-X5: 4 bays of 6.200 m each; Between X5-X7: 2 bays of 7.485 m each."
+                },
+                {
+                  "slNo": "10",
+                  "desc": "Type of Brace in Side walls, Roof",
+                  "details": "Wind bracing: Portal type with Horizontal tie at a clear height of 5.0 m level."
+                },
+                {
+                  "slNo": "11",
+                  "desc": "Type of Eave",
+                  "details": "Eaves Gutter: 2.5 mm Thk M.S Sheet with 1.5 mm thk FRP Lining."
+                },
+                {
+                  "slNo": "12",
+                  "desc": "Downtake Pipes",
+                  "details": "Eaves Gutter Down Take Pipe: 0.5 mm thk color coated sheet, square box type; Valley Gutter Down Take Pipe: UPVC, at both ends only."
+                },
+                {
+                  "slNo": "13",
+                  "desc": "Fascia",
+                  "details": "Canopies: Curved Fascia, bottom soffit sheet."
+                },
+                {
+                  "slNo": "14",
+                  "desc": "Minimum Thickness Built up sections",
+                  "details": "As per design requirements as per MBMA Metal Building Systems Manual."
+                },
+                {
+                  "slNo": "15",
+                  "desc": "Minimum Thickness Secondary",
+                  "details": "1.6 mm for Purlin and Girts for Sheet support"
+                },
+                {
+                  "slNo": "16",
+                  "desc": "Additional Structure (False ceiling)",
+                  "details": "NA"
+                },
+                {
+                  "slNo": "17",
+                  "desc": "Future Expansion along Width, Length",
+                  "details": "Space for Colour Kitchen/ Screen Development: An area designated for future mezzanine expansion."
+                }
+              ],
+              "Design Loads Details": [
+                {
+                  "slNo": "1",
+                  "desc": "Design code",
+                  "details": "Design Load: MBMA 2012; Design for Hot rolled, Built-up Section: AISC Manual of steel Construction edition 1989 (also lists AISC:2010, MBMA:2012); Design for Cold formed members: AISC Design Manual for cold Formed Steel 1989 Edition; Welding: AWS D1.1.96; Design Load: MBMA Low Rise Building System Manual (Latest edition)."
+                },
+                {
+                  "slNo": "2",
+                  "desc": "Design Live load (kN/sqm) on Roof",
+                  "details": "0.57 kN/m^2"
+                },
+                {
+                  "slNo": "3",
+                  "desc": "Design Live load (kN/sqm) on Frame",
+                  "details": "0.57 kN/m^2"
+                },
+                {
+                  "slNo": "4",
+                  "desc": "Dead Load (kN/sqm)",
+                  "details": "0.15 kN/m^2 or as per design, whichever is higher"
+                },
+                {
+                  "slNo": "5",
+                  "desc": "Wind Speed (km/hr)",
+                  "details": "Wind Velocity: 47.0 m/s"
+                },
+                {
+                  "slNo": "6",
+                  "desc": "Collateral load (kN/sqm)",
+                  "details": "Cable Tray: 0.1 kN/m; Pipe Rack Tray: 0.2 kN/m; Load for Solar Panel: 0.02 kN/m^2; Fire Sprinkler Load: 0.02 kN/m^2; Ducting Load on Roof, Purlin: 0.03 kN/m^2."
+                },
+                {
+                  "slNo": "7",
+                  "desc": "Utility Load on Columns/Rafter",
+                  "details": "NA"
+                },
+                {
+                  "slNo": "8",
+                  "desc": "Temperature Load",
+                  "details": "NA"
+                },
+                {
+                  "slNo": "9",
+                  "desc": "Earthquake/Seismic zone",
+                  "details": "Seismic Load: Zone: IV"
+                },
+                {
+                  "slNo": "10",
+                  "desc": "Rainfall Intensity (cm/hour)",
+                  "details": "100 mm/hour"
+                },
+                {
+                  "slNo": "11",
+                  "desc": "Load Combination",
+                  "details": "As per MBMA 2012 / Latest edition"
+                },
+                {
+                  "slNo": "12",
+                  "desc": "Deflection limit",
+                  "details": "Main Frame Vertical: L/180; Main Frame Lateral: H/150; Purlin: L/150; Mezzanine beam: Span/240"
+                },
+                {
+                  "slNo": "13",
+                  "desc": "Site locations",
+                  "details": "AT - CHHATA, MATHURA"
+                }
+              ],
+              "Brick Wall Conditions Details": [
+                {
+                  "slNo": "1",
+                  "desc": "Front Side wall (Along Grid Line A)",
+                  "details": "3.0 m Ht Brick Wall from F.F.L by others, Above Verti. Cladding by us"
+                },
+                {
+                  "slNo": "2",
+                  "desc": "Back Side wall (Along Grid Line E)",
+                  "details": "3.0 m Ht Brick Wall from F.F.L by others, Above Verti. Cladding by us"
+                },
+                {
+                  "slNo": "3",
+                  "desc": "Right End wall (Along Grid Line 11)",
+                  "details": "3.0 m Ht Brick Wall from F.F.L by others, Above Verti. Cladding by us"
+                },
+                {
+                  "slNo": "4",
+                  "desc": "Left End wall (Along Grid Line 1)",
+                  "details": "3.0 m Ht Brick Wall from F.F.L by others, Above Verti. Cladding by us"
+                }
+              ],
+              "Accessories Details": [
+                {
+                  "slNo": "1",
+                  "desc": "Roof Skylight Sheet",
+                  "details": "No value specified"
+                },
+                {
+                  "slNo": "2",
+                  "desc": "Wall lights 2 mm thick translucent polycarbonate sheet",
+                  "details": "1000 mm horizontal band on three sides (Grid X1, YA, Y16); 2 mm thick Polycarbonate sheet; UV resistance, 80-85% Translucency."
+                },
+                {
+                  "slNo": "3",
+                  "desc": "Cage Ladder (Lockable and key arrangement)",
+                  "details": "Quantity: 2 Nos; Access to roof at ridge points; Door locking system."
+                },
+                {
+                  "slNo": "4",
+                  "desc": "A type louvers with weldmesh",
+                  "details": "W3: Window Fixed Aluminium Framed Louvers, 16 Nos (8 per mezzanine); Large section of louvers installed in bay Y6-Y7 under a canopy."
+                },
+                {
+                  "slNo": "5",
+                  "desc": "Framed Opening for Window",
+                  "details": "W1: 3000x1200 (7 Nos); W2: 3000x1200 (7 Nos); W3: 3000x1200 or 3000x800 (16 Nos); V1: 750x600 (8 Nos); D1: 2400x2400 or 1500 wide (1 No); D2: 2000x2400 (1 No); D3: 1200x2400 (1 No); ED: 1200x2400 (1 No)."
+                },
+                {
+                  "slNo": "6",
+                  "desc": "Framed Opening for Rolling Shutter",
+                  "details": "RS1: 5500 x 7000 (1 No); RS2: 5000 x 6000 (1 No)."
+                },
+                {
+                  "slNo": "7",
+                  "desc": "Life Line",
+                  "details": "Roof life line system; Make: MT, T; Location: Peripheral eaves, ridge level."
+                },
+                {
+                  "slNo": "8",
+                  "desc": "Roof Insulation",
+                  "details": "Roof Liner Sheet: 0.5 mm TCT GI PPGL Sheet; Make: JINDAL / AMNS / Tata Bluescope; Coating: AZ 150; Yield Strength: 550 MPa. Note: No Additional / Extra Purlins / Girts for Roof Liner Panel."
+                },
+                {
+                  "slNo": "9",
+                  "desc": "Wall Insulation",
+                  "details": "Wall Liner Sheet: 0.5 mm TCT GI PPGL Sheet; Make: JINDAL / AMNS / Tata Bluescope; Coating: AZ 150; Yield Strength: 550 MPa."
+                }
+              ],
+              "Canopy Details - Forward type canopy with liner panel in soffit, without insulation.": [
+                {
+                  "slNo": "1",
+                  "desc": "Location",
+                  "details": "At 7.50 m level at the entrance near grid Y1/X1; At 6.50 m level located above RS2; Over louvered opening in bay Y6-Y7; Continuous canopy from Y5 to Y13."
+                },
+                {
+                  "slNo": "2",
+                  "desc": "Width (m)",
+                  "details": "Overhang: 2.5 m"
+                },
+                {
+                  "slNo": "3",
+                  "desc": "Length (m)",
+                  "details": "As per column bay."
+                },
+                {
+                  "slNo": "4",
+                  "desc": "Clear height (m)",
+                  "details": "7.50 m level; 6.50 m level"
+                },
+                {
+                  "slNo": "5",
+                  "desc": "Canopy roof panel",
+                  "details": "Box type with 3-side closure using roof sheets (0.53 mm TCT GI PPGL, Tata Bluescope XRW ColorBond)."
+                },
+                {
+                  "slNo": "6",
+                  "desc": "Soffit panel fixed below the rafter",
+                  "details": "Applicable, bottom soffit sheet."
+                },
+                {
+                  "slNo": "7",
+                  "desc": "Eave Condition",
+                  "details": "NA"
+                },
+                {
+                  "slNo": "8",
+                  "desc": "Front Fascia",
+                  "details": "Curved Fascia"
+                }
+              ],
+              "Framed Opening Details": [
+                {
+                  "slNo": "1",
+                  "desc": "Location",
+                  "details": "RS1: near grid Y1/X1 under canopy; RS2: near ramp; ED: near grid X7; W1/W2: Ground floor walls; W3/V1: Mezzanine floor walls."
+                },
+                {
+                  "slNo": "2",
+                  "desc": "Size",
+                  "details": "RS1: 5500x7000 (1 No); RS2: 5000x6000 (1 No); ED: 1200x2400 (1 No); D1: 2400x2400 or 1500 mm wide opening (1 No); D2: 2000x2400 (1 No); D3: 1200x2400 (1 No); W1: 3000x1200 (7 Nos); W2: 3000x1200 (7 Nos); W3: 3000x1200 or 3000x800 (16 Nos); V1: 750x600 (8 Nos)."
+                }
+              ],
+              "Surface Preparation Details": [
+                {
+                  "slNo": "1",
+                  "desc": "Primary",
+                  "details": "NA"
+                },
+                {
+                  "slNo": "2",
+                  "desc": "Secondary",
+                  "details": "NA"
+                }
+              ],
+              "Painting Details": [
+                {
+                  "slNo": "1",
+                  "desc": "Primary",
+                  "details": "Primer: Factory applied one coat Epoxy Zinc Phosphate Primer (50 Micron DFT); Paint: High-build Epoxy Paint at Factory (120 Micron DFT)."
+                },
+                {
+                  "slNo": "2",
+                  "desc": "Secondary",
+                  "details": "Girts, Purlins: Magnelis® ZINC-MG-AL Coating of Jindal make"
+                },
+                {
+                  "slNo": "3",
+                  "desc": "Anchor bolts",
+                  "details": "Unpainted"
+                }
+              ],
+              "Crane Details": [
+                {
+                  "slNo": "1",
+                  "desc": "Nos of Crane",
+                  "details": "NA"
+                }
+              ],
+              "Partition Wall Details": [
+                {
+                  "slNo": "1",
+                  "desc": "Partition Wall",
+                  "details": "Cabin, Meeting Room is enclosed by 'Fixed Glass' partitions."
+                },
+                {
+                  "slNo": "2",
+                  "desc": "Wall condition",
+                  "details": "Fixed Glass partitions"
+                },
+                {
+                  "slNo": "3",
+                  "desc": "Sheeting",
+                  "details": "Fixed Glass"
+                }
+              ],
+              "Mezzanine Floor Details": [
+                {
+                  "slNo": "1",
+                  "desc": "Mezzanine Size",
+                  "details": "Mezzanine Floor at 5.00 m Level: 24.800 m x 23.370 m; Mezzanine Floor at 9.00 m Level: 24.800 m x 23.370 m."
+                },
+                {
+                  "slNo": "2",
+                  "desc": "Mezzanine Column Spacing",
+                  "details": "Horizontal: four equal bays of 6.200 m each between grids X1 and X5; Vertical: 7.830 m (Y13-Y14), 7.840 m (Y14-Y15), and 7.700 m (Y15-Y16)."
+                },
+                {
+                  "slNo": "3",
+                  "desc": "Height",
+                  "details": "1st Mezzanine floor at 5.00 m Level; 2nd Mezzanine floor at 9.00 m Level."
+                },
+                {
+                  "slNo": "4",
+                  "desc": "Live Load",
+                  "details": "Mezzanine Floor at 5.00 m Level: 500 kg/m^2; Mezzanine Floor at 9.00 m Level: 350 kg/m^2."
+                },
+                {
+                  "slNo": "5",
+                  "desc": "Dead Load",
+                  "details": "To be calculated based on 150 mm th RCC Slab."
+                },
+                {
+                  "slNo": "6",
+                  "desc": "Collateral Load",
+                  "details": "NA"
+                },
+                {
+                  "slNo": "7",
+                  "desc": "Staircase and Handrails",
+                  "details": "Quantity: 2 Nos for Mezzanine Floors; Width: 1.5 m (General Staircase), 1.200 m (Fire Staircase); Steps: Chequered Plate with Edge Bend; Railing: 1 m high M.S. B Class Pipe Railing."
+                },
+                {
+                  "slNo": "8",
+                  "desc": "Handrails on Mezzanine",
+                  "details": "Peripheral railing"
+                },
+                {
+                  "slNo": "9",
+                  "desc": "Chaqured Plate",
+                  "details": "Steps: Chequered Plate with Edge Bend."
+                },
+                {
+                  "slNo": "10",
+                  "desc": "Deck Sheet",
+                  "details": "1 mm thickness; Make: JSW / Essar Steel (Arcelor Mittal Nippon)."
+                },
+                {
+                  "slNo": "11",
+                  "desc": "Lift Cutout at mezzanine level",
+                  "details": "3.0 x 3.0 m Lift Cut out"
+                }
+              ]
+            },
+            "Notes": [
+              "Rectification of adjoining structure's gutter area is in PEB scope.",
+              "All dimensions must be checked and correlated with architectural drawings and any ambiguity shall be immediately brought to the notice of the architect before commencement of the work.",
+              "Roof sheeting profiling to be done at roof level by lifting the machine.",
+              "Contains conflicting drawing-based values for a key dimension which partially match the source document; review required.",
+              "Canopy Length: Source (SPEC): \"wide as per col. bay\" | Drawing-based Instance: 12.5 m (SUGGESTED) | Drawing-based Instance: 61.17 m (SUGGESTED) | Drawing-based Instance: 57.19 m (SUGGESTED). Status: MULTIPLE. The source document specifies an intent for canopy length ('as per col. bay') without providing specific measured values. Different drawings represent this with three conflicting measured lengths derived from separate views (Elevations, Roof Plan), indicating a scope discrepancy.",
+              "Canopy Length Scope: Source document states canopy length is 'wide as per col. bay'. Drawings show three conflicting measured lengths: 12.5 m (from Elevation-X), 61.17 m (from Elevation A), and 57.19 m (from Roof Plan). Impact: The intended scope and final length of the canopies are ambiguous and cannot be determined from the provided documents. Clarification of the design intent is required.",
+              "Values are suggested based on interpretation of drawings and present a conflict; user verification is required."
+            ],
+            "MarketingContact": "NA",
+            "validator_status": "unrepairable",
+            "unrepairable_reasons": [
+              "missing bay spacing",
+              "conflicting roof slope values"
+            ]
+          },
+          "comment_json": {
+            "comments": [],
+            "summary": "Human verification changes submitted."
+          },
+          "version": 2,
+          "file_hash": "00b67cfdf5c77f2969908e33fc874650a3e6340340be53370c8d14d8ddc99e64",
+          "status": "approved",
+          "is_bot": false,
+          "verified_by": {
+            "id": "692720b6cf400c5a58a63e19",
+            "name": "Tester"
+          },
+          "verified_at": null,
+          "approved_by": {
+            "id": "692720b6cf400c5a58a63e19",
+            "name": "Tester"
+          },
+          "approved_at": null,
+          "created_at": "2026-01-19T13:32:33",
+          "updated_at": "2026-01-19T13:32:33",
+          "endTime": null,
+          "created_by": "692720b6cf400c5a58a63e19",
+          "created_by_name": null,
+          "last_modified_by": "692720b6cf400c5a58a63e19",
+          "webhook_source": "qrf_webhook",
+          "metadata": {
+            "file_count": 2,
+            "supporting_files_count": 2,
+            "qrf_files_count": 0,
+            "original_file_ids": [
+              "c16669b9-82cf-4f48-b51f-e81248a19be0",
+              "fe785aee-d546-4647-abb8-28b97b3a71f7"
+            ],
+            "company_ids": [
+              "DIYVAAX7T5"
+            ],
+            "file_details": [
+              {
+                "file_id": "c16669b9-82cf-4f48-b51f-e81248a19be0",
+                "file_path": "PROJECT038512/DIYVAAX7T5/f9b4c1b4-2383-4d7e-a6d6-c046b8c10c71.xls",
+                "company_id": "DIYVAAX7T5",
+                "filename": "R4.xls",
+                "is_qrf": false
+              },
+              {
+                "file_id": "fe785aee-d546-4647-abb8-28b97b3a71f7",
+                "file_path": "PROJECT038512/DIYVAAX7T5/5e2a08b9-2aa6-456a-b15a-f10fee0a9502.pdf",
+                "company_id": "DIYVAAX7T5",
+                "filename": "R4 print screening.pdf",
+                "is_qrf": false
+              }
+            ],
+            "company_file_mapping": {
+              "DIYVAAX7T5": {
+                "file_ids": [
+                  "c16669b9-82cf-4f48-b51f-e81248a19be0",
+                  "fe785aee-d546-4647-abb8-28b97b3a71f7"
+                ],
+                "file_paths": [
+                  "PROJECT038512/DIYVAAX7T5/f9b4c1b4-2383-4d7e-a6d6-c046b8c10c71.xls",
+                  "PROJECT038512/DIYVAAX7T5/5e2a08b9-2aa6-456a-b15a-f10fee0a9502.pdf"
+                ],
+                "filenames": [
+                  "R4.xls",
+                  "R4 print screening.pdf"
+                ],
+                "qrf_files": [],
+                "supporting_files": [
+                  {
+                    "file_id": "c16669b9-82cf-4f48-b51f-e81248a19be0",
+                    "filename": "R4.xls",
+                    "file_path": "PROJECT038512/DIYVAAX7T5/f9b4c1b4-2383-4d7e-a6d6-c046b8c10c71.xls"
+                  },
+                  {
+                    "file_id": "fe785aee-d546-4647-abb8-28b97b3a71f7",
+                    "filename": "R4 print screening.pdf",
+                    "file_path": "PROJECT038512/DIYVAAX7T5/5e2a08b9-2aa6-456a-b15a-f10fee0a9502.pdf"
+                  }
+                ]
+              }
+            },
+            "company_statistics": {
+              "DIYVAAX7T5": {
+                "total_files": 2,
+                "qrf_count": 0,
+                "supporting_count": 2,
+                "total_size": 1.35
+              }
+            },
+            "mapped_extracted_files": {
+              "c16669b9-82cf-4f48-b51f-e81248a19be0": "5bab715c-dff4-4656-bdc8-d0dd9427ecd0"
+            },
+            "submitted_at": "2026-01-19T07:03:22.682374"
+          }
+        }
+      ]
+    }
+  ],
+  "status": 200,
+  "process_type": [
+    "boq",
+    "qrf"
+  ]
+}

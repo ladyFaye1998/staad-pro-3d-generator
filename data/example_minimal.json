@@ -1,0 +1,14 @@
+{
+  "project": "example_minimal",
+  "building_length": 48,
+  "building_width": 30,
+  "eave_height": 9,
+  "n_bays": 6,
+  "roof_slope": 4.5,
+  "column_section": "W12X40",
+  "rafter_section": "W14X48",
+  "brace_section": "W8X18",
+  "dead_load": 1.25,
+  "live_load": 1.0,
+  "wind_pressure": 0.4
+}

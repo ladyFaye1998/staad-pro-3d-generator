@@ -1,0 +1,529 @@
+{
+  "process_id": "c06e7571-8e94-4564-91a5-fcd455c53486",
+  "process_type": "qrf",
+  "version_list": [
+    {
+      "process_id": "c06e7571-8e94-4564-91a5-fcd455c53486",
+      "project_id": "PROJECT379355",
+      "process_type": "qrf",
+      "process_json": {
+        "meta": {
+          "QRFNumber": "NBL-TEN-101-R0",
+          "Location": "Site specific location to be determined",
+          "CompanyName": "SIJCON",
+          "ClientName": "NA",
+          "IndustryType": "R.M. Store for DAP : Bulk Product Storage : Bagging Unit"
+        },
+        "sections": {
+          "Building Parameters Details (Plant Building)": [
+            {
+              "slNo": "1",
+              "desc": "Type",
+              "details": "Asymmetrical portal frame"
+            },
+            {
+              "slNo": "2",
+              "desc": "Width (m)",
+              "details": "46.23 m (center-to-center); 46.46 m (out to out of RCC/Brick Walls) for Building 1 (FG); 50.00 m (out to out of RCC/Brick Walls) for Building 2 (RM); 46.46 m (Out-to-Out of footings) [suggested value]"
+            },
+            {
+              "slNo": "3",
+              "desc": "Length (m)",
+              "details": "159.23 m (center-to-center from Grid 1 to Grid 19); 159.46 m (out to out of RCC/Brick Walls) for Building 1 (FG); 50.00 m (c/c of RCC/Brick Wall) for Building 2 (RM) [suggested value]"
+            },
+            {
+              "slNo": "4",
+              "desc": "Eave height (m)",
+              "details": "Along grids A and H: EL 19.00 m; Along grids D and E: EL 33.00 m (highest point); Between grids D and E (valley): EL 7.50 m; Building 1 (FG): 10.0 m for Grid 1-8, 33.00 m for Grid 6-12, 7.50 m for Grid 12-19; Building 2 (RM): 10.00 m for Grid A1-A9 : J1-J8, 33.00 m for Grid J8-J9; Left Side (Grid A): EL 7.50 m; Right Side (Grid H): EL 19.00 m"
+            },
+            {
+              "slNo": "5",
+              "desc": "Width Module",
+              "details": "[1@7.000 m]   [1@7.515 m]   [1@7.000 m]   [1@6.200 m]   [1@6.165 m]   [1@6.165 m]   [1@6.165 m]"
+            },
+            {
+              "slNo": "6",
+              "desc": "Roof Slope",
+              "details": "10° Slope"
+            },
+            {
+              "slNo": "7",
+              "desc": "Bay spacing (m) - Side wall",
+              "details": "[1@7.115 m]   [5@8.700 m]   [1@10.300 m]   [2@8.700 m]   [1@11.200 m]   [6@8.700 m]   [1@8.815 m]"
+            },
+            {
+              "slNo": "8",
+              "desc": "Bay spacing (m) - Intermediate",
+              "details": "NA"
+            },
+            {
+              "slNo": "9",
+              "desc": "End Wall Col Spacing - both endwalls",
+              "details": "Grid A to B: 7.00 m; Grid B to C: 7.515 m; Grid C to D: 7.00 m; Grid D to E: 6.200 m; Grid E to F: 6.165 m; Grid F to G: 6.165 m; Grid G to H: 6.165 m [suggested value]"
+            },
+            {
+              "slNo": "10",
+              "desc": "Type of Brace in Side walls : Roof",
+              "details": "Wind bracing: Portal type with a horizontal tie; A diagonal brace is shown connecting the rafter near grid D to the main column at grid D"
+            },
+            {
+              "slNo": "11",
+              "desc": "Type of Eave",
+              "details": "600x600 mm FRP Gutter"
+            },
+            {
+              "slNo": "12",
+              "desc": "Downtake Pipes",
+              "details": "150 mm Ø Down Take pipes are located at every column; 150 mm dia UPVC Pipes at every column."
+            },
+            {
+              "slNo": "13",
+              "desc": "Fascia",
+              "details": "NA"
+            },
+            {
+              "slNo": "14",
+              "desc": "Minimum Thickness Built up sections",
+              "details": "6 mm"
+            },
+            {
+              "slNo": "15",
+              "desc": "Minimum Thickness Secondary",
+              "details": "Cold Form Sections: 4 mm; Hot Rolled Section: 5 mm"
+            },
+            {
+              "slNo": "16",
+              "desc": "Additional Structure (False ceiling)",
+              "details": "NA"
+            },
+            {
+              "slNo": "17",
+              "desc": "Future Expansion along Width : Length",
+              "details": "NA"
+            }
+          ],
+          "Design Loads Details": [
+            {
+              "slNo": "1",
+              "desc": "Design code",
+              "details": "MBMA (Low Rise Building System Manual); AISC (1989 Manual of Steel Construction); AISC:2010, MBMA:2012; AWS D1.1.96; AISI Cold Formed Steel Design Manual"
+            },
+            {
+              "slNo": "2",
+              "desc": "Design Live load (kN/sqm) on Roof",
+              "details": "0.57 kN/m²"
+            },
+            {
+              "slNo": "3",
+              "desc": "Design Live load (kN/sqm) on Frame",
+              "details": "0.57 kN/m²"
+            },
+            {
+              "slNo": "4",
+              "desc": "Dead Load (kN/sqm)",
+              "details": "0.15 kN/m² or as per design, whichever is higher."
+            },
+            {
+              "slNo": "5",
+              "desc": "Wind Speed (km/hr)",
+              "details": "50.0 m/sec [suggested value]"
+            },
+            {
+              "slNo": "6",
+              "desc": "Collateral load (kN/sqm)",
+              "details": "Cable Tray Loading: 0.1 kN/m; Pipe Rack Tray Loading: 0.15 kN/m; Fire Sprinkler Load: 0.03 kN/m²; Load for Solar Panel (Building 2 (RM)): N.A. (Not Applicable)"
+            },
+            {
+              "slNo": "7",
+              "desc": "Utility Load on Columns/Rafter",
+              "details": "Hoist Load (Building 1): 3.0 Ton capacity, Beam Top at  33.0 m Level; Hoist Load (Building 2): 3.0 Ton capacity, Beam Top at  29.50 m Level; MONORAIL FOR HOIST 5T; MONORAIL FOR HOIST 3T"
+            },
+            {
+              "slNo": "8",
+              "desc": "Temperature Load",
+              "details": "NA"
+            },
+            {
+              "slNo": "9",
+              "desc": "Earthquake/Seismic zone",
+              "details": "Zone III"
+            },
+            {
+              "slNo": "10",
+              "desc": "Rainfall Intensity (cm/hour)",
+              "details": "100 mm"
+            },
+            {
+              "slNo": "11",
+              "desc": "Load Combination",
+              "details": "NA"
+            },
+            {
+              "slNo": "12",
+              "desc": "Deflection limit",
+              "details": "Main Frame Vertical: L/240; Main Frame Lateral: H/180; Purlin: L/180"
+            },
+            {
+              "slNo": "13",
+              "desc": "Site locations",
+              "details": "NA"
+            }
+          ],
+          "Brick Wall Conditions Details": [
+            {
+              "slNo": "1",
+              "desc": "Front Side wall (Along Grid Line A)",
+              "details": "R.C.C. wall up to EL 2.50 m with a thickness of 230 mm, with U PVC cladding above."
+            },
+            {
+              "slNo": "2",
+              "desc": "Back Side wall (Along Grid Line H)",
+              "details": "Brick wall at base, Height: 2.00 m from FFL, Thickness: 230 mm, with U PVC cladding above; 2.50 m HEIGHT TOP OF BRICK WALL specified along grid H."
+            },
+            {
+              "slNo": "3",
+              "desc": "Right End wall (Along Grid Line 19)",
+              "details": "NA"
+            },
+            {
+              "slNo": "4",
+              "desc": "Left End wall (Along Grid Line 1)",
+              "details": "NA"
+            }
+          ],
+          "Wall Material Details": [
+            {
+              "slNo": "1",
+              "desc": "Roof Panel",
+              "details": "Material: UPVC (Unplasticized Polyvinyl Chloride); Thickness: 3.5 mm; Profile: Trapezoidal; Fasteners: Xylan Coated S.S. Self Tapping Screws"
+            },
+            {
+              "slNo": "2",
+              "desc": "Wall Panel",
+              "details": "Material: UPVC Sheets; Thickness: 2.5 mm; Fasteners: Xylan Coated S.S. Self Tapping Screws"
+            }
+          ],
+          "Accessories Details": [
+            {
+              "slNo": "1",
+              "desc": "2 mm thick polycarbonate sheets (skylights).",
+              "details": "3% of Roof Area; Material: Polycarbonate sheet; Thickness: 2 mm"
+            },
+            {
+              "slNo": "2",
+              "desc": "Wall lights 2 mm thick translucent polycarbonate sheet",
+              "details": "Horizontal band at building peripheral area; Band Width (Building 1): 1200 mm; Band Width (Building 2): 2400 mm"
+            },
+            {
+              "slNo": "3",
+              "desc": "Cage Ladder (Lockable and key arrangement)",
+              "details": "Quantity: 2 Nos. per building; Feature: Door locking system."
+            },
+            {
+              "slNo": "4",
+              "desc": "A type louvers with weldmesh",
+              "details": "NA"
+            },
+            {
+              "slNo": "5",
+              "desc": "Framed Opening for Window",
+              "details": "Windows (W): 2000x1400 mm (17 Nos); Doors (D): 1200x2300 mm (1 No); Emergency Doors (ED): 1200x2300 mm (2 Nos)"
+            },
+            {
+              "slNo": "6",
+              "desc": "Framed Opening for Rolling Shutter",
+              "details": "RS: 6000x6000 mm (7 Nos); RS1: 4000x6000 mm (1 No); RS2: 9000x6000 mm (1 No); RS3: 5000x6000 mm (1 No)"
+            },
+            {
+              "slNo": "7",
+              "desc": "Life Line",
+              "details": "Roof life line system; Make: MT : T; Location: Peripheral eaves : ridge level."
+            },
+            {
+              "slNo": "8",
+              "desc": "Roof Insulation",
+              "details": "NA"
+            },
+            {
+              "slNo": "9",
+              "desc": "Wall Insulation",
+              "details": "NA"
+            }
+          ],
+          "Canopy Details - Forward type canopy with liner panel in soffit : without insulation.": [
+            {
+              "slNo": "1",
+              "desc": "Location",
+              "details": "Over openings along grids A and H."
+            },
+            {
+              "slNo": "2",
+              "desc": "Width (m)",
+              "details": "4.0 m Wide (Typ.); Min. 4.0 m"
+            },
+            {
+              "slNo": "3",
+              "desc": "Length (m)",
+              "details": "NA"
+            },
+            {
+              "slNo": "4",
+              "desc": "Clear height (m)",
+              "details": "6.50 m Bottom (Typ.)"
+            },
+            {
+              "slNo": "5",
+              "desc": "Canopy roof panel",
+              "details": "Box type with 3 sides closure with roof sheets."
+            },
+            {
+              "slNo": "6",
+              "desc": "Soffit panel fixed below the rafter",
+              "details": "NA"
+            },
+            {
+              "slNo": "7",
+              "desc": "Eave Condition",
+              "details": "Canopy bottom at EL 6.50 m."
+            },
+            {
+              "slNo": "8",
+              "desc": "Front Fascia",
+              "details": "NA"
+            }
+          ],
+          "Framed Opening Details": [
+            {
+              "slNo": "1",
+              "desc": "Location",
+              "details": "RS: along grids A and H; RS1: on grid line H at grid 1; RS2: between grids C and D at grid 10; RS3: on grid line G near grid 1; W: along grids A and H; D: in the MCC Room; ED: on grid line H at grid 1 and grid C near grid 1"
+            },
+            {
+              "slNo": "2",
+              "desc": "Size",
+              "details": "RS: 6000 mm(W) x 6000 mm(H) (07 Nos); RS1: 4000 mm(W) x 6000 mm(H) (01 No); RS2: 9000 mm(W) x 6000 mm(H) (01 No); RS3: 5000 mm(W) x 6000 mm(H) (01 No); W: 2000 mm(W) x 1400 mm(H) (17 Nos); D: 1200 mm(W) x 2300 mm(H) (01 No); ED: 1200 mm(W) x 2300 mm(H) (02 Nos)"
+            }
+          ],
+          "Surface Preparation Details": [
+            {
+              "slNo": "1",
+              "desc": "Primary",
+              "details": "NA"
+            },
+            {
+              "slNo": "2",
+              "desc": "Secondary",
+              "details": "NA"
+            }
+          ],
+          "Painting Details": [
+            {
+              "slNo": "1",
+              "desc": "Primary",
+              "details": "Factory applied two-coat system. Primer: One coat of Epoxy Zinc Phosphate Primer, DFT: 50 Microns. Top Coat: Highbuild Epoxy Paint. Total System DFT: 120 Microns."
+            },
+            {
+              "slNo": "2",
+              "desc": "Secondary",
+              "details": "NA"
+            },
+            {
+              "slNo": "3",
+              "desc": "Anchor bolts",
+              "details": "NA"
+            }
+          ],
+          "Crane Details": [
+            {
+              "slNo": "1",
+              "desc": "Nos of Crane",
+              "details": "HOIST 3T APPROX; MONORAIL FOR HOIST 5T; MONORAIL FOR HOIST 3T"
+            }
+          ],
+          "Partition Wall Details": [
+            {
+              "slNo": "1",
+              "desc": "Partition Wall",
+              "details": "PARTITION WALL (RCC) applicable for Grid 2 TO 7, between Grid A and Grid D."
+            },
+            {
+              "slNo": "2",
+              "desc": "Wall condition",
+              "details": "Total length of 21.00 m. Taller section height of ~9.70 m. Shorter section height of 1.328 m. Top edge has a specified slope of 30°."
+            },
+            {
+              "slNo": "3",
+              "desc": "Sheeting",
+              "details": "NA"
+            }
+          ],
+          "Mezzanine Floor Details": [
+            {
+              "slNo": "1",
+              "desc": "Mezzanine Size",
+              "details": "Mezzanine Floor for Building 2 (RM Only). Size not specified."
+            },
+            {
+              "slNo": "2",
+              "desc": "Mezzanine Column Spacing",
+              "details": "NA"
+            },
+            {
+              "slNo": "3",
+              "desc": "Height",
+              "details": "Levels @  18.0 m :  22.792 m"
+            },
+            {
+              "slNo": "4",
+              "desc": "Live Load",
+              "details": "500 kg/m²"
+            },
+            {
+              "slNo": "5",
+              "desc": "Dead Load",
+              "details": "150 mm thick RCC Slab"
+            },
+            {
+              "slNo": "6",
+              "desc": "Collateral Load",
+              "details": "NA"
+            },
+            {
+              "slNo": "7",
+              "desc": "Staircase and Handrails",
+              "details": "M.S Pipe railing with toe guard, 1.0 m height."
+            },
+            {
+              "slNo": "8",
+              "desc": "Handrails on Mezzanine",
+              "details": "M.S Pipe railing with toe guard, 1.0 m height."
+            },
+            {
+              "slNo": "9",
+              "desc": "Chaqured Plate",
+              "details": "NA"
+            },
+            {
+              "slNo": "10",
+              "desc": "Deck Sheet",
+              "details": "0.8 mm thick deck sheet with shear connectors and peripheral L-type angle."
+            },
+            {
+              "slNo": "11",
+              "desc": "Lift Cutout at mezzanine level",
+              "details": "NA"
+            }
+          ]
+        },
+        "Notes": [
+          "This drawing is the property of SIJCON and not to be copied or used without our permission.",
+          "Performance Warranty (Weather Tightness): 5 years.",
+          "Performance Warranty (Painting : Surface Finish): 5 years.",
+          "Performance Warranty (Structural Stability): 30 years.",
+          "Contains critical differences between drawing-based values and source documents requiring review.",
+          "Plant Building (FG): Building Width: Source (SPEC): 46.46 m (out-to-out) | Drawing-based: 46.46 m (out-to-out). Status: VERIFIED. Source and drawing values are a direct match.",
+          "Plant Building (FG): Building Length: Source (SPEC): 159.46 m (out-to-out) | Drawing-based: 159.46 m (out-to-out). Status: VERIFIED. Source and drawing values are a direct match.",
+          "Plant Building (FG): Eave Height (m): Source (SPEC): Specifies 10.0m, 33.0m, and 7.5m at different grid locations. | Drawing-based: Multiple conflicting heights identified (e.g., 19.0m, 33.0m, 7.5m).. Status: INCONSISTENT. Source and drawing values are inconsistent and internally conflicting. Reconciliation was not possible.",
+          "Plant Building (FG): Bay Spacing: Source (SPEC): 'As per Drawing' | Drawing-based: 1@7.115 + 5@8.700 + 1@10.300 + 2@8.700 + 1@11.200 + 6@8.700 + 1@8.815 m. Status: INCONSISTENT. Source defers to drawing, but the sum of drawing-based bay spacings (150.53 m) does not match the overall building length (159.23 m c/c).",
+          "Plant Building (FG): Framed Openings: Source (SPEC) specifies 'Framed opening with Supporting structure' for rolling shutters without dimensions. | Drawing-based values (MULTIPLE): |   - Rolling Shutter (RS): 6000x6000 mm (Qty: 7) - VERIFIED |   - Rolling Shutter (RS1): 4000x6000 mm (Qty: 1) - VERIFIED |   - Rolling Shutter (RS2): 9000x6000 mm (Qty: 1) - VERIFIED |   - Rolling Shutter (RS3): 5000x6000 mm (Qty: 1) - VERIFIED |   - Window (W): 2000x1400 mm (Qty: 17) - VERIFIED |   - Door (D): 1200x2300 mm (Qty: 1) - VERIFIED |   - Emergency Door (ED): 1200x2300 mm (Qty: 2) - VERIFIED. Status: MULTIPLE. Multiple valid instances identified from drawings. The source document specifies intent for rolling shutters but does not provide dimensions, quantities, or details for other opening types.",
+          "RM Building: Building Width: Source (SPEC): 50.00 m (out-to-out) | Drawing-based: 30.00 m (out-to-out). Status: INCONSISTENT. Direct conflict between source document value and consistently measured drawing value. Reconciliation was not possible.",
+          "RM Building: Building Length: Source (SPEC): 50.00 m (c/c) | Final Value (Drawing-based): 49.77 m (center-to-center). Status: VERIFIED. The drawing-based value of 49.77 m (c/c) was adopted as it is consistent with the source value of 50.00 m (c/c) within tolerance.",
+          "RM Building: Eave Height (m): Source (SPEC): Specifies 10.00 m and 33.00 m at different locations. | Drawing-based: Consistently shows 10.00 m only.. Status: INCONSISTENT. Conflict of scope. Drawings do not show the 33.00 m eave height specified in the source document.",
+          "RM Building: Bay Spacing: Source (SPEC): 'As per Drawing' | Final Value (Drawing-based): 1@5.984 + 4@6.100 + 1@7.000 + 2@6.193 m. Status: DERIVED. Source defers to drawing. Spacings are derived from drawings and are internally consistent with the building length.",
+          "Plant Building (FG): Eave Height: Source document specifies multiple eave heights (10.0m, 33.0m, 7.5m). Drawings show different and conflicting values (e.g., 19.0m, 33.0m, 7.5m). Impact: Clarification required on correct eave heights and locations.",
+          "Plant Building (FG): Bay Spacing: The sum of bay spacings shown on the drawing (150.53 m) is inconsistent with the overall building length shown on the same drawing (159.23 m c/c). Impact: Confirmation required for correct bay spacing dimensions.",
+          "RM Building: Width: Source document specifies a width of 50.00 m. Drawings consistently show a width of 30.00 m. Impact: Confirmation required for correct building width.",
+          "RM Building: Eave Height: Source document specifies two eave heights (10.0 m and 33.0 m). Drawings consistently show only the 10.0 m eave height. Impact: Confirmation required on scope for the 33.0 m eave height.",
+          "Values are based on drawing interpretations that conflict with source documents. User verification is advised."
+        ],
+        "MarketingContact": "NA"
+      },
+      "previous_json": {},
+      "comment_json": {},
+      "version": 1,
+      "file_hash": "c6e20e92e3d3a0d9c9b458125c8a1a20100c6bbae3d838dcea83044679d58ffb",
+      "status": "pending_verification",
+      "is_bot": true,
+      "verified_by": null,
+      "verified_at": null,
+      "approved_by": null,
+      "approved_at": null,
+      "created_at": "2026-03-01T18:09:09",
+      "updated_at": "2026-03-01T18:43:46",
+      "endTime": "2026-03-01T18:43:46",
+      "created_by": "692720b6cf400c5a58a63e19",
+      "created_by_name": "Tester Superadmin",
+      "last_modified_by": "system",
+      "webhook_source": "qrf_webhook",
+      "metadata": {
+        "file_count": 2,
+        "supporting_files_count": 2,
+        "qrf_files_count": 0,
+        "original_file_ids": [
+          "c84dceca-d975-4502-9886-c8cb8373f15c",
+          "75601647-46b9-4888-a759-3b61608efd45"
+        ],
+        "company_ids": [
+          "DIYVAAX7T5"
+        ],
+        "file_details": [
+          {
+            "file_id": "c84dceca-d975-4502-9886-c8cb8373f15c",
+            "file_path": "PROJECT379355/DIYVAAX7T5/a5e254c2-b7bb-49db-9f83-b8d0a9c83023.pdf",
+            "company_id": "DIYVAAX7T5",
+            "filename": "Bulk Store.pdf",
+            "is_qrf": false
+          },
+          {
+            "file_id": "75601647-46b9-4888-a759-3b61608efd45",
+            "file_path": "PROJECT379355/DIYVAAX7T5/f1dcf65b-0898-4f0b-9958-0a528ac0786e.xls",
+            "company_id": "DIYVAAX7T5",
+            "filename": "RMS & FGS PEB Tender Enquiry_26.02.2026.xls",
+            "is_qrf": false
+          }
+        ],
+        "company_file_mapping": {
+          "DIYVAAX7T5": {
+            "file_ids": [
+              "c84dceca-d975-4502-9886-c8cb8373f15c",
+              "75601647-46b9-4888-a759-3b61608efd45"
+            ],
+            "file_paths": [
+              "PROJECT379355/DIYVAAX7T5/a5e254c2-b7bb-49db-9f83-b8d0a9c83023.pdf",
+              "PROJECT379355/DIYVAAX7T5/f1dcf65b-0898-4f0b-9958-0a528ac0786e.xls"
+            ],
+            "filenames": [
+              "Bulk Store.pdf",
+              "RMS & FGS PEB Tender Enquiry_26.02.2026.xls"
+            ],
+            "qrf_files": [],
+            "supporting_files": [
+              {
+                "file_id": "c84dceca-d975-4502-9886-c8cb8373f15c",
+                "filename": "Bulk Store.pdf",
+                "file_path": "PROJECT379355/DIYVAAX7T5/a5e254c2-b7bb-49db-9f83-b8d0a9c83023.pdf"
+              },
+              {
+                "file_id": "75601647-46b9-4888-a759-3b61608efd45",
+                "filename": "RMS & FGS PEB Tender Enquiry_26.02.2026.xls",
+                "file_path": "PROJECT379355/DIYVAAX7T5/f1dcf65b-0898-4f0b-9958-0a528ac0786e.xls"
+              }
+            ]
+          }
+        },
+        "company_statistics": {
+          "DIYVAAX7T5": {
+            "total_files": 2,
+            "qrf_count": 0,
+            "supporting_count": 2,
+            "total_size": 3.33
+          }
+        },
+        "mapped_extracted_files": {
+          "75601647-46b9-4888-a759-3b61608efd45": "1b120120-5b32-4c10-8f1a-51bd5810e0f2"
+        },
+        "submitted_at": "2026-03-01T12:39:10.170128"
+      }
+    }
+  ]
+}

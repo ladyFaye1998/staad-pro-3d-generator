@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>STAAD.Pro 3D Generator — Live Demo</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<script src="https://cdn.plot.ly/plotly-2.35.0.min.js"></script>
+<style>
+  :root {
+    --bg: #0d0d0d;
+    --surface: #161616;
+    --surface2: #1e1e1e;
+    --border: #2a2a2a;
+    --gold: #c9a84c;
+    --gold-dim: #a08530;
+    --text: #e8e0d4;
+    --text-dim: #9a9488;
+    --blue: #2563eb;
+    --red: #dc2626;
+    --green: #10b981;
+    --purple: #8b5cf6;
+    --orange: #f97316;
+    --amber: #f59e0b;
+    --cyan: #06b6d4;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+    min-height: 100vh;
+  }
+  a { color: var(--gold); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  .header {
+    text-align: center;
+    padding: 3rem 1rem 2rem;
+    border-bottom: 1px solid var(--border);
+    background: linear-gradient(180deg, #111 0%, var(--bg) 100%);
+  }
+  .header h1 {
+    font-family: 'Georgia', serif;
+    font-size: 2.2rem;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    color: var(--gold);
+    margin-bottom: 0.4rem;
+  }
+  .header p {
+    color: var(--text-dim);
+    font-size: 0.95rem;
+    max-width: 640px;
+    margin: 0 auto;
+  }
+
+  .container { max-width: 1280px; margin: 0 auto; padding: 2rem 1.5rem; }
+
+  .selector-bar {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+  }
+  .selector-bar label {
+    color: var(--text-dim);
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+  .selector-bar select {
+    background: var(--surface);
+    color: var(--text);
+    border: 1px solid var(--border);
+    padding: 0.6rem 1rem;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    min-width: 280px;
+    transition: border-color 0.2s;
+  }
+  .selector-bar select:hover,
+  .selector-bar select:focus {
+    border-color: var(--gold);
+    outline: none;
+  }
+  .badge {
+    display: inline-block;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    color: var(--gold);
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+
+  .grid { display: grid; grid-template-columns: 1fr 2fr; gap: 1.5rem; margin-bottom: 1.5rem; }
+  @media (max-width: 900px) { .grid { grid-template-columns: 1fr; } }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .card-header {
+    padding: 0.8rem 1.2rem;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .card-header h3 {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--text-dim);
+    font-weight: 500;
+  }
+  .card-header .dot {
+    width: 8px; height: 8px; border-radius: 50%;
+    background: var(--gold);
+  }
+  .card-body { padding: 1.2rem; }
+
+  table.spec-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.88rem;
+  }
+  table.spec-table tr { border-bottom: 1px solid var(--border); }
+  table.spec-table tr:last-child { border-bottom: none; }
+  table.spec-table td {
+    padding: 0.45rem 0;
+  }
+  table.spec-table td:first-child {
+    color: var(--text-dim);
+    width: 45%;
+    font-size: 0.82rem;
+  }
+  table.spec-table td:last-child {
+    color: var(--text);
+    font-weight: 500;
+    text-align: right;
+  }
+  .highlight-row td {
+    color: var(--gold) !important;
+    font-weight: 600 !important;
+  }
+
+  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 1.5rem; }
+  @media (max-width: 900px) { .grid-2 { grid-template-columns: 1fr; } }
+
+  .std-preview {
+    background: #0a0a0a;
+    color: #b0b0b0;
+    font-family: 'Cascadia Code', 'Fira Code', 'Consolas', monospace;
+    font-size: 0.78rem;
+    line-height: 1.5;
+    padding: 1rem;
+    max-height: 340px;
+    overflow-y: auto;
+    white-space: pre;
+    border-radius: 0 0 10px 10px;
+  }
+  .std-preview::-webkit-scrollbar { width: 6px; }
+  .std-preview::-webkit-scrollbar-track { background: transparent; }
+  .std-preview::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+
+  .download-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: var(--gold-dim);
+    color: #0d0d0d;
+    font-weight: 600;
+    padding: 0.5rem 1.2rem;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    border: none;
+    transition: background 0.2s;
+    margin-top: 0.8rem;
+  }
+  .download-btn:hover { background: var(--gold); }
+
+  .footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    border-top: 1px solid var(--border);
+    color: var(--text-dim);
+    font-size: 0.82rem;
+    margin-top: 2rem;
+  }
+  .footer a { color: var(--gold); }
+
+  #plot3d .js-plotly-plot .plotly .modebar { top: 4px !important; right: 4px !important; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>✦ STAAD.Pro 3D Generator</h1>
+  <p>QRF JSON → Production-Ready .std Files &mdash; Interactive 3D Wireframe, Unity Ratio, Serviceability Checks &amp; Steel BOQ</p>
+</div>
+
+<div class="container">
+
+  <div class="selector-bar">
+    <label for="building-select">Building</label>
+    <select id="building-select"></select>
+    <span class="badge" id="badge-joints"></span>
+    <span class="badge" id="badge-members"></span>
+    <span class="badge" id="badge-steel"></span>
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <div class="card-header"><div class="dot"></div><h3>Building Specification</h3></div>
+      <div class="card-body">
+        <table class="spec-table" id="spec-table"><tbody></tbody></table>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header"><div class="dot"></div><h3>3D Wireframe</h3></div>
+      <div id="plot3d" style="height:480px;"></div>
+    </div>
+  </div>
+
+  <div class="grid-2">
+    <div class="card">
+      <div class="card-header"><div class="dot"></div><h3>Steel BOQ Breakdown</h3></div>
+      <div id="boq-chart" style="height:360px;"></div>
+    </div>
+    <div class="card">
+      <div class="card-header"><div class="dot"></div><h3>STAAD .std Preview</h3></div>
+      <div class="std-preview" id="std-preview"></div>
+      <div style="padding: 0.6rem 1.2rem; border-top: 1px solid var(--border); display:flex; align-items:center; justify-content:space-between;">
+        <span style="color:var(--text-dim); font-size:0.8rem;" id="std-line-count"></span>
+        <button class="download-btn" id="download-btn">⬇ Download .std</button>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="footer">
+  Built with Python &middot; Plotly.js &middot;
+  <a href="https://github.com/ladyFaye1998/staad-pro-3d-generator" target="_blank">GitHub Repository</a>
+</div>
+
+<script src="demo_data.js"></script>
+<script>
+const KIND_COLORS = {
+  column: "#2563eb", haunch: "#7c3aed", rafter: "#dc2626",
+  eave_long: "#f59e0b", ridge_long: "#f59e0b",
+  purlin: "#10b981", girt: "#8b5cf6",
+  roof_brace: "#f97316", wall_brace: "#f97316", portal_brace: "#ea580c",
+  endwall_col: "#06b6d4", crane_beam: "#0891b2",
+  mezz_col: "#e879f9", mezz_beam: "#fb7185", mezz_long: "#fb7185",
+  canopy: "#14b8a6", opening_jamb: "#a3e635", jack_beam: "#facc15",
+  joist: "#38bdf8", cage_ladder: "#f472b6",
+};
+const KIND_LABELS = {
+  column: "Columns", haunch: "Haunches", rafter: "Rafters",
+  eave_long: "Eave Beams", ridge_long: "Ridge Beams",
+  purlin: "Purlins", girt: "Wall Girts",
+  roof_brace: "Roof Braces", wall_brace: "Wall Braces", portal_brace: "Portal Braces",
+  endwall_col: "Endwall Columns", crane_beam: "Crane Beams",
+  mezz_col: "Mezz Columns", mezz_beam: "Mezz Beams", mezz_long: "Mezz Longitudinal",
+  canopy: "Canopy", opening_jamb: "Opening Jambs", jack_beam: "Jack Beams",
+  joist: "Floor Joists", cage_ladder: "Cage Ladder",
+};
+
+const sel = document.getElementById("building-select");
+DEMO_DATA.forEach((b, i) => {
+  const opt = document.createElement("option");
+  opt.value = i;
+  opt.textContent = b.name + "  (" + b.file + ")";
+  sel.appendChild(opt);
+});
+
+function renderBuilding(idx) {
+  const b = DEMO_DATA[idx];
+  const s = b.spec;
+
+  document.getElementById("badge-joints").textContent = s.joints + " joints";
+  document.getElementById("badge-members").textContent = s.members + " members";
+  document.getElementById("badge-steel").textContent = s.steel_tonnes.toFixed(2) + " tonnes";
+
+  const rows = [
+    ["Plan dimensions", s.plan],
+    ["Bays", s.bays],
+    ["Eave height", s.eave_height],
+    ["Roof slope", s.roof_slope],
+    ["Design code", s.design_code],
+    ["Yield strength", s.fy],
+    ["Wind pressure", s.wind_pressure],
+    ["Seismic Ah", s.seismic_ah],
+    ["Crane load", s.crane_load],
+    ["Deflection limits", s.defl_limits],
+  ];
+  if (s.mezzanine) rows.push(["Mezzanine", s.mezzanine]);
+  rows.push(
+    ["3D model", s.joints + " joints, " + s.members + " members"],
+    ["Steel estimate", s.steel_tonnes.toFixed(2) + " tonnes (" + (s.total_cost || "") + ")"],
+  );
+  const tbody = document.querySelector("#spec-table tbody");
+  tbody.innerHTML = rows.map((r, i) => {
+    const cls = i >= 10 ? ' class="highlight-row"' : "";
+    return "<tr" + cls + "><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>";
+  }).join("");
+
+  // 3D wireframe
+  const traces = [];
+  for (const [kind, segments] of Object.entries(b.members_by_kind)) {
+    const xs = [], ys = [], zs = [];
+    for (const seg of segments) {
+      xs.push(seg[0][0], seg[1][0], null);
+      ys.push(seg[0][1], seg[1][1], null);
+      zs.push(seg[0][2], seg[1][2], null);
+    }
+    const w = (kind === "column" || kind === "rafter") ? 4 : 2;
+    traces.push({
+      type: "scatter3d", mode: "lines", x: xs, y: ys, z: zs,
+      name: KIND_LABELS[kind] || kind,
+      line: { color: KIND_COLORS[kind] || "#888", width: w },
+    });
+  }
+  const layout3d = {
+    scene: {
+      xaxis: { title: "Length (m)", gridcolor: "#222", color: "#666" },
+      yaxis: { title: "Width (m)", gridcolor: "#222", color: "#666" },
+      zaxis: { title: "Height (m)", gridcolor: "#222", color: "#666" },
+      aspectmode: "data",
+      camera: { eye: { x: 1.5, y: 1.5, z: 0.8 } },
+      bgcolor: "#111",
+    },
+    paper_bgcolor: "transparent",
+    plot_bgcolor: "transparent",
+    legend: { orientation: "h", y: 1.08, x: 0.5, xanchor: "center", font: { size: 11, color: "#999" } },
+    margin: { l: 0, r: 0, t: 20, b: 0 },
+    font: { color: "#999" },
+  };
+  Plotly.react("plot3d", traces, layout3d, { responsive: true, displayModeBar: true, modeBarButtonsToRemove: ["toImage"] });
+
+  // BOQ chart
+  const boq = b.boq;
+  const kinds = Object.keys(boq.by_kind);
+  const vals = kinds.map(k => boq.by_kind[k] / 1000);
+  const colors = kinds.map(k => KIND_COLORS[k] || "#888");
+  const labels = kinds.map(k => KIND_LABELS[k] || k);
+
+  const boqTrace = {
+    type: "bar", orientation: "h", x: vals, y: labels,
+    marker: { color: colors },
+    text: vals.map(v => v.toFixed(2) + " t"),
+    textposition: "auto",
+    textfont: { color: "#fff", size: 11 },
+  };
+  const boqLayout = {
+    title: {
+      text: "Total: " + boq.total_tonnes.toFixed(2) + " tonnes  |  " + boq.member_count + " members  |  " + boq.total_length_m.toFixed(0) + " m",
+      font: { size: 12, color: "#888" },
+    },
+    xaxis: { title: "Tonnes", color: "#666", gridcolor: "#222" },
+    yaxis: { autorange: "reversed", color: "#999" },
+    paper_bgcolor: "transparent",
+    plot_bgcolor: "transparent",
+    margin: { l: 120, r: 20, t: 40, b: 40 },
+    font: { color: "#999" },
+  };
+  Plotly.react("boq-chart", [boqTrace], boqLayout, { responsive: true, displayModeBar: false });
+
+  // .std preview
+  document.getElementById("std-preview").textContent = b.std_preview;
+  document.getElementById("std-line-count").textContent = b.std_lines + " lines total";
+
+  // download
+  document.getElementById("download-btn").onclick = () => {
+    const blob = new Blob([b.std_preview + "\n... (showing first 80 lines — run pipeline locally for full file)"], { type: "text/plain" });
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = b.name.replace(/\s+/g, "_") + ".std";
+    a.click();
+    URL.revokeObjectURL(a.href);
+  };
+}
+
+sel.addEventListener("change", () => renderBuilding(+sel.value));
+renderBuilding(0);
+</script>
+
+</body>
+</html>

@@ -1,0 +1,517 @@
+{
+  "process_id": "bb6a2784-1296-497c-8aea-208631759487",
+  "process_type": "qrf",
+  "version_list": [
+    {
+      "process_id": "bb6a2784-1296-497c-8aea-208631759487",
+      "project_id": "PROJECT379355",
+      "process_type": "qrf",
+      "process_json": {
+        "meta": {
+          "QRFNumber": "NBL-TEN-103-R0",
+          "Location": "OFFSITES",
+          "CompanyName": "SIJCON",
+          "ClientName": "Not specified.",
+          "IndustryType": "DAP :, Bulk Product Storage :, Bagging"
+        },
+        "sections": {
+          "Building Parameters Details (Plant Building)": [
+            {
+              "slNo": "1",
+              "desc": "Type",
+              "details": "Single-story industrial building (RM Store) with a low-bay and a high-bay section."
+            },
+            {
+              "slNo": "2",
+              "desc": "Width (m)",
+              "details": "50.00 m overall outer-to-outer (o/o); 49.77 m center-to-center (c/c); sum of the individual frame spacing dimensions is 49.671 m; 50.00 m out to out of RCC/Brick Walls."
+            },
+            {
+              "slNo": "3",
+              "desc": "Length (m)",
+              "details": "50.00 m overall outer-to-outer (o/o); sum of the individual bay dimensions is 49.77 m; 50.00 m c/c of RCC/Brick Wall."
+            },
+            {
+              "slNo": "4",
+              "desc": "Eave height (m)",
+              "details": "Low Bay Eave Height: EL ( ) 10.00 m (Grid A1 to A9 :, J1 to J8); High Bay Eave Height: EL ( ) 30.00 m (Grid J7 to J9); CONFLICT: High bay eave height also stated as 33.00 m (Grid J8 to J9)."
+            },
+            {
+              "slNo": "5",
+              "desc": "Width Module",
+              "details": "[1@49.770m] c/c"
+            },
+            {
+              "slNo": "6",
+              "desc": "Roof Slope",
+              "details": "10° Slope on both sides"
+            },
+            {
+              "slNo": "7",
+              "desc": "Bay spacing (m) - Side wall",
+              "details": "Grid 1-2: [1@5.043m] c/c; Grid 2-3: [1@5.043m] c/c; Grid 3-4: [1@6.500m] c/c; Grid 4-5: [1@6.500m] c/c; Grid 5-6: [1@6.500m] c/c; Grid 6-7: [1@6.184m] c/c; Grid 7-8: [1@7.000m] c/c; Grid 8-9: [1@7.000m] c/c"
+            },
+            {
+              "slNo": "8",
+              "desc": "Bay spacing (m) - Intermediate",
+              "details": "NA"
+            },
+            {
+              "slNo": "9",
+              "desc": "End Wall Col Spacing - both endwalls",
+              "details": "Grid A-B: [1@5.985m] c/c (also 5.984m); B-C: [1@6.100m] c/c; C-D: [1@6.100m] c/c; D-E: [1@6.100m] c/c; E-F: [1@6.100m] c/c (also 7.000m); F-G: [1@7.500m] c/c (also 6.193m :, 7.000m); G-H: [1@5.693m] c/c (also 2.500m :, 6.193m); H-J: [1@6.193m] c/c"
+            },
+            {
+              "slNo": "10",
+              "desc": "Type of Brace in Side walls :, Roof",
+              "details": "Wind Bracing: Portal type with a horizontal tie; Roof Bracing: Rod and Angle Bracing."
+            },
+            {
+              "slNo": "11",
+              "desc": "Type of Eave",
+              "details": "600x600 FRP Gutter"
+            },
+            {
+              "slNo": "12",
+              "desc": "Downtake Pipes",
+              "details": "150 mm diameter UPVC Rain Water pipes at every column."
+            },
+            {
+              "slNo": "13",
+              "desc": "Fascia",
+              "details": "NA"
+            },
+            {
+              "slNo": "14",
+              "desc": "Minimum Thickness Built up sections",
+              "details": "6 mm"
+            },
+            {
+              "slNo": "15",
+              "desc": "Minimum Thickness Secondary",
+              "details": "Minimum thickness must be greater than 4 mm"
+            },
+            {
+              "slNo": "16",
+              "desc": "Additional Structure (False ceiling)",
+              "details": "NA"
+            },
+            {
+              "slNo": "17",
+              "desc": "Future Expansion along Width :, Length",
+              "details": "NA"
+            }
+          ],
+          "Design Loads Details": [
+            {
+              "slNo": "1",
+              "desc": "Design code",
+              "details": "Metal Building Manufacturers Association (MBMA) Low Rise Building System Manual (Latest Edition); AISC Manual of Steel Construction (1989 Edition / AISC:2010); AISI Cold Formed Steel Design Manual; AWS D1.1.96 / AWS D1.1 Structural Welding Code."
+            },
+            {
+              "slNo": "2",
+              "desc": "Design Live load (kN/sqm) on Roof",
+              "details": "0.57 kN/m^2"
+            },
+            {
+              "slNo": "3",
+              "desc": "Design Live load (kN/sqm) on Frame",
+              "details": "0.57 kN/m^2"
+            },
+            {
+              "slNo": "4",
+              "desc": "Dead Load (kN/sqm)",
+              "details": "0.15 kN/m^2 or as per design, whichever is higher"
+            },
+            {
+              "slNo": "5",
+              "desc": "Wind Speed (km/hr)",
+              "details": "50.0 m/sec"
+            },
+            {
+              "slNo": "6",
+              "desc": "Collateral load (kN/sqm)",
+              "details": "Cable Tray: 0.1 kN/m; Pipe Rack Tray: 0.15 kN/m; Fire Sprinkler Load: 0.03 kN/m^2; Hoist Load: 3.0 Ton capacity; Solar Panel Load: N.A."
+            },
+            {
+              "slNo": "7",
+              "desc": "Utility Load on Columns/Rafter",
+              "details": "Cable Tray: 0.1 kN/m along column peripheral :, one internal side; Pipe Rack Tray: 0.15 kN/m along column peripheral :, one internal side."
+            },
+            {
+              "slNo": "8",
+              "desc": "Temperature Load",
+              "details": "NA"
+            },
+            {
+              "slNo": "9",
+              "desc": "Earthquake/Seismic zone",
+              "details": "Zone III"
+            },
+            {
+              "slNo": "10",
+              "desc": "Rainfall Intensity (cm/hour)",
+              "details": "Gutter designed for 100 mm rainfall"
+            },
+            {
+              "slNo": "11",
+              "desc": "Load Combination",
+              "details": "According to MBMA Low Rise Building System Manual (Latest Edition)"
+            },
+            {
+              "slNo": "12",
+              "desc": "Deflection limit",
+              "details": "Main Frame Vertical: L/240; Main Frame Lateral: H/180; Purlin: L/180"
+            },
+            {
+              "slNo": "13",
+              "desc": "Site locations",
+              "details": "OFFSITES"
+            }
+          ],
+          "Brick Wall Conditions Details": [
+            {
+              "slNo": "1",
+              "desc": "Front Side wall (Along Grid Line A)",
+              "details": "Up to 4.0 m Ht. RCC Wall from F.F.L by others :, Above U PVC Cladding by us; CONFLICT: Also specified as 230 mm Thk. Brick Wall up to 2.50 m Ht."
+            },
+            {
+              "slNo": "2",
+              "desc": "Back Side wall (Along Grid Line E)",
+              "details": "Up to 4.0 m Ht. RCC Wall from F.F.L by others :, Above U PVC Cladding by us; CONFLICT: Also specified as 230 mm Thk. Brick Wall up to 2.50 m Ht."
+            },
+            {
+              "slNo": "3",
+              "desc": "Right End wall (Along Grid Line 11)",
+              "details": "Up to 4.0 m Ht. RCC Wall from F.F.L by others :, Above U PVC Cladding by us; CONFLICT: Also specified as 230 mm Thk. Brick Wall up to 2.50 m Ht."
+            },
+            {
+              "slNo": "4",
+              "desc": "Left End wall (Along Grid Line 1)",
+              "details": "Up to 4.0 m Ht. RCC Wall from F.F.L by others :, Above U PVC Cladding by us; CONFLICT: Also specified as 230 mm Thk. Brick Wall up to 2.50 m Ht."
+            }
+          ],
+          "Wall Material Details": [
+            {
+              "slNo": "1",
+              "desc": "Roof Panel",
+              "details": "Material: UPVC Trapezoidal Sheets; Thickness: 3.5 mm; Fasteners: Xylan Coated S.S. Self Tapping Screws (min. 5 per m^2)."
+            },
+            {
+              "slNo": "2",
+              "desc": "Wall Panel",
+              "details": "Material: UPVC Sheets; Thickness: 2.5 mm; Fasteners: Xylan Coated S.S. Self Tapping Screws."
+            }
+          ],
+          "Accessories Details": [
+            {
+              "slNo": "1",
+              "desc": "Skylights",
+              "details": "Roof Skylight: 3% of Roof Area; Material: 2 mm thick Polycarbonate sheet, same profile as UPVC sheets."
+            },
+            {
+              "slNo": "2",
+              "desc": "Wall lights",
+              "details": "2400 mm horizontal band of 2 mm thick Polycarbonate sheet, UV resistant, 80-85% Translucency."
+            },
+            {
+              "slNo": "3",
+              "desc": "Cage Ladder (Lockable and key arrangement)",
+              "details": "2 Nos. to approach roof ridge points, with a door locking system."
+            },
+            {
+              "slNo": "4",
+              "desc": "A type louvers with weldmesh",
+              "details": "NA"
+            },
+            {
+              "slNo": "5",
+              "desc": "Framed Opening for Window",
+              "details": "W: 2.0 m (w) x 1.4 m (h)"
+            },
+            {
+              "slNo": "6",
+              "desc": "Framed Opening for Rolling Shutter",
+              "details": "RS: 4.0 m (w) x 6.0 m (h); RS1: 6.0 m (w) x 6.0 m (h)"
+            },
+            {
+              "slNo": "7",
+              "desc": "Life Line",
+              "details": "Roof Life Line: System to be provided at peripheral eaves and ridge level. Make: MT :, T."
+            },
+            {
+              "slNo": "8",
+              "desc": "Roof Insulation",
+              "details": "NA"
+            },
+            {
+              "slNo": "9",
+              "desc": "Wall Insulation",
+              "details": "NA"
+            }
+          ],
+          "Canopy Details - Forward type canopy with liner panel in soffit :, without insulation.": [
+            {
+              "slNo": "1",
+              "desc": "Location",
+              "details": "Not specified on plans. Note mentions \"Canopy @ 6.50 m. Bottom (Typ.)\" and \"chhajja is specified at the Lintel Level (Typical)\"."
+            },
+            {
+              "slNo": "2",
+              "desc": "Width (m)",
+              "details": "Minimum 4.0 m Overhang; CONFLICT: also noted as 4.0 m Wide Canopy and 0.6 m wide chhajja."
+            },
+            {
+              "slNo": "3",
+              "desc": "Length (m)",
+              "details": "NA"
+            },
+            {
+              "slNo": "4",
+              "desc": "Clear height (m)",
+              "details": "@ 6.50 m. Bottom (Typ.)"
+            },
+            {
+              "slNo": "5",
+              "desc": "Canopy roof panel",
+              "details": "Box type with 3-sided closure using roof sheets (UPVC Trapezoidal Sheets)."
+            },
+            {
+              "slNo": "6",
+              "desc": "Soffit panel fixed below the rafter",
+              "details": "Applicable (Box type with 3-sided closure)"
+            },
+            {
+              "slNo": "7",
+              "desc": "Eave Condition",
+              "details": "NA"
+            },
+            {
+              "slNo": "8",
+              "desc": "Front Fascia",
+              "details": "NA"
+            }
+          ],
+          "Framed Opening Details": [
+            {
+              "slNo": "1",
+              "desc": "Location",
+              "details": "RS: between two columns on gridline 'J'; W: visible on plan along gridline 'J'. Specific bays are not indicated."
+            },
+            {
+              "slNo": "2",
+              "desc": "Size",
+              "details": "RS: 4.0 m (W) x 6.0 m (H); RS1: 6.0 m (W) x 6.0 m (H); W: 2.0 m (W) x 1.4 m (H)."
+            }
+          ],
+          "Surface Preparation Details": [
+            {
+              "slNo": "1",
+              "desc": "Primary",
+              "details": "NA"
+            },
+            {
+              "slNo": "2",
+              "desc": "Secondary",
+              "details": "NA"
+            }
+          ],
+          "Painting Details": [
+            {
+              "slNo": "1",
+              "desc": "Primary",
+              "details": "One coat of Epoxy Zinc Phosphate Primer (50 Micron DFT)   High-build Epoxy Paint. Total DFT: 120 microns."
+            },
+            {
+              "slNo": "2",
+              "desc": "Secondary",
+              "details": "NA"
+            },
+            {
+              "slNo": "3",
+              "desc": "Anchor bolts",
+              "details": "NA"
+            }
+          ],
+          "Crane Details": [
+            {
+              "slNo": "1",
+              "desc": "Nos of Crane",
+              "details": "1 No. 3.0 Ton capacity hoist. Beam Top at  29.50 m Level. Hoist support from rafter."
+            }
+          ],
+          "Partition Wall Details": [
+            {
+              "slNo": "1",
+              "desc": "Partition Wall",
+              "details": "NA"
+            },
+            {
+              "slNo": "2",
+              "desc": "Wall condition",
+              "details": "NA"
+            },
+            {
+              "slNo": "3",
+              "desc": "Sheeting",
+              "details": "NA"
+            }
+          ],
+          "Mezzanine Floor Details": [
+            {
+              "slNo": "1",
+              "desc": "Mezzanine Size",
+              "details": "Platform size is noted as 8.293 m x 2.500 m on the roof plan; CONFLICT: Note says \"Platform Size BXL to be Given by CIFh In Plan Area\"."
+            },
+            {
+              "slNo": "2",
+              "desc": "Mezzanine Column Spacing",
+              "details": "NA"
+            },
+            {
+              "slNo": "3",
+              "desc": "Height",
+              "details": "Two levels: @  18.0 m :,  22.792 m."
+            },
+            {
+              "slNo": "4",
+              "desc": "Live Load",
+              "details": "5.0 kN/m^2."
+            },
+            {
+              "slNo": "5",
+              "desc": "Dead Load",
+              "details": "150 mm thick RCC Slab."
+            },
+            {
+              "slNo": "6",
+              "desc": "Collateral Load",
+              "details": "NA"
+            },
+            {
+              "slNo": "7",
+              "desc": "Staircase and Handrails",
+              "details": "M.S Pipe railing, 1.0 m height with toe guard."
+            },
+            {
+              "slNo": "8",
+              "desc": "Handrails on Mezzanine",
+              "details": "M.S Pipe railing, 1.0 m height with toe guard."
+            },
+            {
+              "slNo": "9",
+              "desc": "Chaqured Plate",
+              "details": "NA"
+            },
+            {
+              "slNo": "10",
+              "desc": "Deck Sheet",
+              "details": "0.8 mm thick deck sheet with shear connectors."
+            },
+            {
+              "slNo": "11",
+              "desc": "Lift Cutout at mezzanine level",
+              "details": "NA"
+            }
+          ]
+        },
+        "Notes": [
+          "All dimensions must be checked and co-related with architectural drawings.",
+          "Staad Model to be submitted with the offer.",
+          "PEB Columns on Grid A1-A9, B1:9, C1:9, D1:9, E1:9 start at  4.00 m level. All other PEB columns start from -0.300 m level.",
+          "Contains differences between drawing-based values and the source document requiring review.",
+          "Canopy Width: Drawing-based Instance 1: 4.0 m (Main Canopy Overhang) | Drawing-based Instance 2: 0.6 m (Chhajja) | Source (SPEC): Mini. 4.0Mtr over hang(As/drawing). Status: MULTIPLE. Drawings show two distinct, verified overhangs. The source document specifies a 'Mini. 4.0Mtr over hang', which aligns with the larger 4.0 m instance but does not mention the smaller 0.6 m chhajja, resulting in a partial match.",
+          "Canopy Width: Source document specifies a 'Mini. 4.0Mtr over hang'. Drawings show two distinct instances: a 4.0 m canopy and an additional 0.6 m chhajja. Impact: Confirmation is required on whether the 0.6 m chhajja is within the intended scope.",
+          "Values derived from drawings differ in scope from the source document; user verification is advised."
+        ],
+        "MarketingContact": "NA"
+      },
+      "previous_json": {},
+      "comment_json": {},
+      "version": 1,
+      "file_hash": "d4af52b560695a40f025f90d42d25c418f7a16bca21f165ea9c5c99403a1837f",
+      "status": "pending_verification",
+      "is_bot": true,
+      "verified_by": null,
+      "verified_at": null,
+      "approved_by": null,
+      "approved_at": null,
+      "created_at": "2026-03-01T18:09:27",
+      "updated_at": "2026-03-01T18:41:12",
+      "endTime": "2026-03-01T18:41:12",
+      "created_by": "692720b6cf400c5a58a63e19",
+      "created_by_name": "Tester Superadmin",
+      "last_modified_by": "system",
+      "webhook_source": "qrf_webhook",
+      "metadata": {
+        "file_count": 2,
+        "supporting_files_count": 2,
+        "qrf_files_count": 0,
+        "original_file_ids": [
+          "9980f349-80fe-44c8-94d2-37bf410e42c5",
+          "75601647-46b9-4888-a759-3b61608efd45"
+        ],
+        "company_ids": [
+          "DIYVAAX7T5"
+        ],
+        "file_details": [
+          {
+            "file_id": "9980f349-80fe-44c8-94d2-37bf410e42c5",
+            "file_path": "PROJECT379355/DIYVAAX7T5/195c1fe5-2f8d-4699-a735-a5f214cfaf4b.pdf",
+            "company_id": "DIYVAAX7T5",
+            "filename": "RM Store.pdf",
+            "is_qrf": false
+          },
+          {
+            "file_id": "75601647-46b9-4888-a759-3b61608efd45",
+            "file_path": "PROJECT379355/DIYVAAX7T5/f1dcf65b-0898-4f0b-9958-0a528ac0786e.xls",
+            "company_id": "DIYVAAX7T5",
+            "filename": "RMS & FGS PEB Tender Enquiry_26.02.2026.xls",
+            "is_qrf": false
+          }
+        ],
+        "company_file_mapping": {
+          "DIYVAAX7T5": {
+            "file_ids": [
+              "9980f349-80fe-44c8-94d2-37bf410e42c5",
+              "75601647-46b9-4888-a759-3b61608efd45"
+            ],
+            "file_paths": [
+              "PROJECT379355/DIYVAAX7T5/195c1fe5-2f8d-4699-a735-a5f214cfaf4b.pdf",
+              "PROJECT379355/DIYVAAX7T5/f1dcf65b-0898-4f0b-9958-0a528ac0786e.xls"
+            ],
+            "filenames": [
+              "RM Store.pdf",
+              "RMS & FGS PEB Tender Enquiry_26.02.2026.xls"
+            ],
+            "qrf_files": [],
+            "supporting_files": [
+              {
+                "file_id": "9980f349-80fe-44c8-94d2-37bf410e42c5",
+                "filename": "RM Store.pdf",
+                "file_path": "PROJECT379355/DIYVAAX7T5/195c1fe5-2f8d-4699-a735-a5f214cfaf4b.pdf"
+              },
+              {
+                "file_id": "75601647-46b9-4888-a759-3b61608efd45",
+                "filename": "RMS & FGS PEB Tender Enquiry_26.02.2026.xls",
+                "file_path": "PROJECT379355/DIYVAAX7T5/f1dcf65b-0898-4f0b-9958-0a528ac0786e.xls"
+              }
+            ]
+          }
+        },
+        "company_statistics": {
+          "DIYVAAX7T5": {
+            "total_files": 2,
+            "qrf_count": 0,
+            "supporting_count": 2,
+            "total_size": 2.36
+          }
+        },
+        "mapped_extracted_files": {
+          "75601647-46b9-4888-a759-3b61608efd45": "1b120120-5b32-4c10-8f1a-51bd5810e0f2"
+        },
+        "submitted_at": "2026-03-01T12:39:27.550944"
+      }
+    }
+  ]
+}

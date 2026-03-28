@@ -1,0 +1,927 @@
+{
+  "success": true,
+  "data": [
+    {
+      "process_id": "c5a23906-a083-4ef3-9d1a-13bf1c7cf346",
+      "process_type": "qrf",
+      "version_list": [
+        {
+          "process_id": "c5a23906-a083-4ef3-9d1a-13bf1c7cf346",
+          "project_id": "PROJECT603931",
+          "process_type": "qrf",
+          "process_json": {
+            "meta": {
+              "QRFNumber": "S-2447 (R0)",
+              "Location": "32-C, Nakoda Nagar II, Udaipur- 313001",
+              "CompanyName": "THE SUNIL COMPANY",
+              "ClientName": "GARVIT AGRAWAL",
+              "IndustryType": "NA"
+            },
+            "sections": {
+              "Building Parameters Details (Plant Building)": [
+                {
+                  "slNo": "1",
+                  "desc": "Type",
+                  "details": "single-span, symmetrical portal frame structure"
+                },
+                {
+                  "slNo": "2",
+                  "desc": "Width (m)",
+                  "details": "24380 O/O STEEL LINE; 24380 O/O; 23240 (Sum of bays A-B, B-C, C-D: 7745   7750   7745)"
+                },
+                {
+                  "slNo": "3",
+                  "desc": "Length (m)",
+                  "details": "30480 O/O STEEL LINE; 29650 (Sum of bays 1-2, 2-3, 3-4, 4-5: 7205   7620   7620   7205)"
+                },
+                {
+                  "slNo": "4",
+                  "desc": "Eave height (m)",
+                  "details": "10500 CLEAR (from the finished floor level to the underside of the steel rafter at the haunch)"
+                },
+                {
+                  "slNo": "5",
+                  "desc": "Width Module",
+                  "details": "1@7745mm C/C   1@7750mm   1@7745mm C/C"
+                },
+                {
+                  "slNo": "6",
+                  "desc": "Roof Slope",
+                  "details": "suggested value: 1:10"
+                },
+                {
+                  "slNo": "7",
+                  "desc": "Bay spacing (m) - Side wall",
+                  "details": "bay between Grid 1 and Grid 2 is 7205 C/C; bay between Grid 2 and Grid 3 is 7620; bay between Grid 3 and Grid 4 is 7620 mm (C/C); bay between Grid 4 and Grid 5 is 7205"
+                },
+                {
+                  "slNo": "8",
+                  "desc": "Bay spacing (m) - Intermediate",
+                  "details": "suggested value: 7205 mm C/C"
+                },
+                {
+                  "slNo": "9",
+                  "desc": "End Wall Col Spacing - both endwalls",
+                  "details": "bay between Grid A and Grid B is 7745 C/C; bay between Grid B and Grid C is 7750; bay between Grid C and Grid D is 7745 C/C"
+                },
+                {
+                  "slNo": "10",
+                  "desc": "Type of Brace in Side walls & Roof",
+                  "details": "Diagonal 'X' symbols indicating horizontal bracing. Braced bay located between grid lines A and B, spanning from grid line ① to ②. Braced bay located between grid lines A and B, spanning from grid line ④ to ⑤."
+                },
+                {
+                  "slNo": "11",
+                  "desc": "Type of Eave",
+                  "details": "EAVE GUTTER: A gutter is shown at the eave on both the left and right sides of the building."
+                },
+                {
+                  "slNo": "12",
+                  "desc": "Downtake Pipes",
+                  "details": "DOWN TAKE PIPE: A down take pipe (downspout) is shown connected to the eave on both the left and right sides."
+                },
+                {
+                  "slNo": "13",
+                  "desc": "Fascia",
+                  "details": "suggested value: 0.5 mm color coated"
+                },
+                {
+                  "slNo": "14",
+                  "desc": "Minimum Thickness Built up sections",
+                  "details": "suggested value: 6 mm"
+                },
+                {
+                  "slNo": "15",
+                  "desc": "Minimum Thickness Secondary",
+                  "details": "suggested value: 6 mm"
+                },
+                {
+                  "slNo": "16",
+                  "desc": "Additional Structure (False ceiling)",
+                  "details": "suggested value: 12 mm gypsum board"
+                },
+                {
+                  "slNo": "17",
+                  "desc": "Future Expansion along Width & Length",
+                  "details": "suggested value: 10% of total area"
+                }
+              ],
+              "Design Loads Details": [
+                {
+                  "slNo": "1",
+                  "desc": "Design code",
+                  "details": "IS 800:2007"
+                },
+                {
+                  "slNo": "2",
+                  "desc": "Design Live load (kN/sqm) on Roof",
+                  "details": "1.5 kN/sqm"
+                },
+                {
+                  "slNo": "3",
+                  "desc": "Design Live load (kN/sqm) on Frame",
+                  "details": "3.0 kN/sqm"
+                },
+                {
+                  "slNo": "4",
+                  "desc": "Dead Load (kN/sqm)",
+                  "details": "2.0 kN/sqm"
+                },
+                {
+                  "slNo": "5",
+                  "desc": "Wind Speed (km/hr)",
+                  "details": "120 km/hr"
+                },
+                {
+                  "slNo": "6",
+                  "desc": "Collateral load (kN/sqm)",
+                  "details": "0.5 kN/sqm"
+                },
+                {
+                  "slNo": "7",
+                  "desc": "Utility Load on Columns/Rafter",
+                  "details": "suggested value: 0.5 kN/sqm"
+                },
+                {
+                  "slNo": "8",
+                  "desc": "Temperature Load",
+                  "details": "suggested value: 0.5 kN/sqm"
+                },
+                {
+                  "slNo": "9",
+                  "desc": "Earthquake/Seismic zone",
+                  "details": "II"
+                },
+                {
+                  "slNo": "10",
+                  "desc": "Rainfall Intensity (cm/hour)",
+                  "details": "suggested value: 5 cm/hour"
+                },
+                {
+                  "slNo": "11",
+                  "desc": "Load Combination",
+                  "details": "DL   LL   WL"
+                },
+                {
+                  "slNo": "12",
+                  "desc": "Deflection limit",
+                  "details": "L/360"
+                },
+                {
+                  "slNo": "13",
+                  "desc": "Site locations",
+                  "details": "32-C, Nakoda Nagar II, Udaipur- 313001"
+                }
+              ],
+              "Brick Wall Conditions Details": [
+                {
+                  "slNo": "1",
+                  "desc": "Front Side wall (Along Grid Line A)",
+                  "details": "Up to 3.0 m Ht. BRICK WALL. BY OTHER. Above: 0.5 MM CLADDING SHEET COLOR COATED."
+                },
+                {
+                  "slNo": "2",
+                  "desc": "Back Side wall (Along Grid Line E)",
+                  "details": "Up to 3.0 m Ht. BRICK WALL. BY OTHER. Above: 0.5 MM CLADDING SHEET COLOR COATED."
+                },
+                {
+                  "slNo": "3",
+                  "desc": "Right End wall (Along Grid Line 11)",
+                  "details": "Up to 3.0 m Ht. BRICK WALL. BY OTHER. Above: 0.5 MM CLADDING SHEET COLOR COATED."
+                },
+                {
+                  "slNo": "4",
+                  "desc": "Left End wall (Along Grid Line 1)",
+                  "details": "Up to 3.0 m Ht. BRICK WALL. BY OTHER. Above: 0.5 MM CLADDING SHEET COLOR COATED."
+                }
+              ],
+              "Accessories Details": [
+                {
+                  "slNo": "1",
+                  "desc": "2 mm thick polycarbonate sheets (skylights). GI weld mesh to be considered below the translucent sheet for safety / fall protection system for roof only.",
+                  "details": "SKY LIGHT: Two skylights are shown, one on each slope of the roof."
+                },
+                {
+                  "slNo": "2",
+                  "desc": "Wall lights 2 mm thick translucent polycarbonate sheet",
+                  "details": "suggested value: 2 mm thick"
+                },
+                {
+                  "slNo": "3",
+                  "desc": "Cage Ladder (Lockable and key arrangement)",
+                  "details": "suggested value: Compliant with IS 456"
+                },
+                {
+                  "slNo": "4",
+                  "desc": "A type louvers with weldmesh",
+                  "details": "TURBO VENT: Two turbo vents (or roof ventilators) are shown, one on each slope of the roof, positioned near the ridge."
+                },
+                {
+                  "slNo": "5",
+                  "desc": "Framed Opening for Window",
+                  "details": "suggested value: 1.5 m x 1.5 m"
+                },
+                {
+                  "slNo": "6",
+                  "desc": "Framed Opening for Rolling Shutter",
+                  "details": "suggested value: 2.0 m x 2.0 m"
+                },
+                {
+                  "slNo": "7",
+                  "desc": "Life Line",
+                  "details": "suggested value: Compliant with IS 456"
+                },
+                {
+                  "slNo": "8",
+                  "desc": "Roof Insulation",
+                  "details": "suggested value: 50 mm thickness"
+                },
+                {
+                  "slNo": "9",
+                  "desc": "Wall Insulation",
+                  "details": "suggested value: 50 mm thickness"
+                }
+              ],
+              "Canopy Details - Forward type canopy with liner panel in soffit & without insulation.": [
+                {
+                  "slNo": "1",
+                  "desc": "Location",
+                  "details": "suggested value: Front entrance"
+                },
+                {
+                  "slNo": "2",
+                  "desc": "Width (m)",
+                  "details": "suggested value: 3.0 m"
+                },
+                {
+                  "slNo": "3",
+                  "desc": "Length (m)",
+                  "details": "suggested value: 5.0 m"
+                },
+                {
+                  "slNo": "4",
+                  "desc": "Clear height (m)",
+                  "details": "suggested value: 2.5 m"
+                },
+                {
+                  "slNo": "5",
+                  "desc": "Canopy roof panel",
+                  "details": "suggested value: 0.5 mm thickness"
+                },
+                {
+                  "slNo": "6",
+                  "desc": "Soffit panel fixed below the rafter",
+                  "details": "suggested value: 12 mm thickness"
+                },
+                {
+                  "slNo": "7",
+                  "desc": "Eave Condition",
+                  "details": "suggested value: 1:10 slope"
+                },
+                {
+                  "slNo": "8",
+                  "desc": "Front Fascia",
+                  "details": "suggested value: 0.5 mm color coated"
+                }
+              ],
+              "Framed Opening Details": [
+                {
+                  "slNo": "1",
+                  "desc": "Location",
+                  "details": "suggested value: Main entrance"
+                },
+                {
+                  "slNo": "2",
+                  "desc": "Size",
+                  "details": "suggested value: 2.0 m x 2.0 m"
+                }
+              ],
+              "Surface Preparation Details": [
+                {
+                  "slNo": "1",
+                  "desc": "Primary",
+                  "details": "suggested value: Clean and dry surface"
+                },
+                {
+                  "slNo": "2",
+                  "desc": "Secondary",
+                  "details": "suggested value: Smooth surface finish"
+                }
+              ],
+              "Painting Details": [
+                {
+                  "slNo": "1",
+                  "desc": "Primary",
+                  "details": "suggested value: Epoxy-based paint"
+                },
+                {
+                  "slNo": "2",
+                  "desc": "Secondary",
+                  "details": "suggested value: Weather-resistant paint"
+                },
+                {
+                  "slNo": "3",
+                  "desc": "Anchor bolts",
+                  "details": "suggested value: Corrosion-resistant coating"
+                }
+              ],
+              "Crane Details": [
+                {
+                  "slNo": "1",
+                  "desc": "Nos of Crane",
+                  "details": "5 TON CRANE (SWL); CRANE BRACKET HEIGHT: 8000 BKT TOP"
+                }
+              ],
+              "Partition Wall Details": [
+                {
+                  "slNo": "1",
+                  "desc": "Partition Wall",
+                  "details": "suggested value: 100 mm thick"
+                },
+                {
+                  "slNo": "2",
+                  "desc": "Wall condition",
+                  "details": "suggested value: Smooth finish"
+                },
+                {
+                  "slNo": "3",
+                  "desc": "Sheeting",
+                  "details": "suggested value: Gypsum board"
+                }
+              ],
+              "Mezzanine Floor Details": [
+                {
+                  "slNo": "1",
+                  "desc": "Mezzanine Size",
+                  "details": "suggested value: 100 m²"
+                },
+                {
+                  "slNo": "2",
+                  "desc": "Mezzanine Column Spacing",
+                  "details": "suggested value: 6 m"
+                },
+                {
+                  "slNo": "3",
+                  "desc": "Height",
+                  "details": "suggested value: 2.5 m"
+                },
+                {
+                  "slNo": "4",
+                  "desc": "Live Load",
+                  "details": "suggested value: 3.0 kN/sqm"
+                },
+                {
+                  "slNo": "5",
+                  "desc": "Dead Load",
+                  "details": "suggested value: 2.0 kN/sqm"
+                },
+                {
+                  "slNo": "6",
+                  "desc": "Collateral Load",
+                  "details": "suggested value: 0.5 kN/sqm"
+                },
+                {
+                  "slNo": "7",
+                  "desc": "Staircase and Handrails",
+                  "details": "suggested value: Compliant with IS 456"
+                },
+                {
+                  "slNo": "8",
+                  "desc": "Handrails on Mezzanine",
+                  "details": "suggested value: Minimum height 1.0 m"
+                },
+                {
+                  "slNo": "9",
+                  "desc": "Chaqured Plate",
+                  "details": "suggested value: 6 mm thick"
+                },
+                {
+                  "slNo": "10",
+                  "desc": "Deck Sheet",
+                  "details": "suggested value: Composite deck"
+                },
+                {
+                  "slNo": "11",
+                  "desc": "Lift Cutout at mezzanine level",
+                  "details": "suggested value: 1.5 m x 1.5 m"
+                }
+              ]
+            },
+            "Notes": [
+              "ALL DIMENSIONS ARE IN MM.",
+              "WRITTEN DIMENSIONS TO BE FOLLOWED ONLY.",
+              "Scale: NTS (Not To Scale).",
+              "The explicitly stated overall dimension (24380) in both FLOOR_PLAN and SECTIONS does not match the sum of the individual bay dimensions (23240) provided in FLOOR_PLAN (7745 7750 7745).",
+              "The explicitly stated overall dimension (30480) in FLOOR_PLAN does not match the sum of the individual bay dimensions (29650) provided in the same FLOOR_PLAN (7205 7620 7620 7205).",
+              "Contains critical differences between drawing-based values and source documents requiring review.",
+              "Building Width: Source (Sheet1): 18000 mm X 16220 mm (interpreted as 16220 mm) | Drawing-based: 24380 mm. Status: INCONSISTENT. A significant conflict exists between the source document and drawing dimensions. The values are irreconcilable.",
+              "Building Length: Source (Sheet1): 18000 mm X 16220 mm (interpreted as 18000 mm) | Drawing-based: 30480 mm. Status: INCONSISTENT. A significant conflict exists between the source document and drawing dimensions. The values are irreconcilable.",
+              "Bay Spacing (Side Wall): 7205 + 2@7620 + 7205 mm. Status: VERIFIED. Value is derived from explicit dimensions on the GENERAL ARRANGEMENT drawing. No value was provided in the source document.",
+              "Roof Slope: Not Specified. Status: INCONSISTENT. Value was not found in the provided source documents or drawings.",
+              "Skylights: Required. Status: VERIFIED. Presence is confirmed in drawings. The source document provides material specifications ('2 mm thick polycarbonate sheets') but not quantity or location.",
+              "Building Width & Length: Source document specifies dimensions of '18000 mm X 16220 mm'. Drawings show an overall width of 24380 mm and length of 30480 mm. Impact: The dimensions in the source and drawings are fundamentally different. Confirmation is required to determine the correct building size.",
+              "Roof Slope: The Roof Slope is not specified in the source document or on any drawings. Impact: This is a critical design parameter that must be defined. Clarification is required.",
+              "Data contains unresolved inconsistencies and conflicts between source documents and drawings. Use with caution."
+            ],
+            "MarketingContact": "Contact Person: GARVIT AGRAWAL; Mobile Numbers: 8619015622, 7568204820; Email: thesunilandcompany@yahoo.com"
+          },
+          "previous_json": {
+            "meta": {
+              "QRFNumber": "S-2447 (R0)",
+              "Location": "32-C, Nakoda Nagar II, Udaipur- 313001",
+              "CompanyName": "THE SUNIL COMPANY",
+              "ClientName": "GARVIT AGRAWAL",
+              "IndustryType": "NA"
+            },
+            "sections": {
+              "Building Parameters Details (Plant Building)": [
+                {
+                  "slNo": "1",
+                  "desc": "Type",
+                  "details": "single-span, symmetrical portal frame structure"
+                },
+                {
+                  "slNo": "2",
+                  "desc": "Width (m)",
+                  "details": "24380 O/O STEEL LINE; 24380 O/O; 23240 (Sum of bays A-B, B-C, C-D: 7745   7750   7745)"
+                },
+                {
+                  "slNo": "3",
+                  "desc": "Length (m)",
+                  "details": "30480 O/O STEEL LINE; 29650 (Sum of bays 1-2, 2-3, 3-4, 4-5: 7205   7620   7620   7205)"
+                },
+                {
+                  "slNo": "4",
+                  "desc": "Eave height (m)",
+                  "details": "10500 CLEAR (from the finished floor level to the underside of the steel rafter at the haunch)"
+                },
+                {
+                  "slNo": "5",
+                  "desc": "Width Module",
+                  "details": "1@7745mm C/C   1@7750mm   1@7745mm C/C"
+                },
+                {
+                  "slNo": "6",
+                  "desc": "Roof Slope",
+                  "details": "suggested value: 1:10"
+                },
+                {
+                  "slNo": "7",
+                  "desc": "Bay spacing (m) - Side wall",
+                  "details": "bay between Grid 1 and Grid 2 is 7205 C/C; bay between Grid 2 and Grid 3 is 7620; bay between Grid 3 and Grid 4 is 7620 mm (C/C); bay between Grid 4 and Grid 5 is 7205"
+                },
+                {
+                  "slNo": "8",
+                  "desc": "Bay spacing (m) - Intermediate",
+                  "details": "suggested value: 7205 mm C/C"
+                },
+                {
+                  "slNo": "9",
+                  "desc": "End Wall Col Spacing - both endwalls",
+                  "details": "bay between Grid A and Grid B is 7745 C/C; bay between Grid B and Grid C is 7750; bay between Grid C and Grid D is 7745 C/C"
+                },
+                {
+                  "slNo": "10",
+                  "desc": "Type of Brace in Side walls & Roof",
+                  "details": "Diagonal 'X' symbols indicating horizontal bracing. Braced bay located between grid lines A and B, spanning from grid line ① to ②. Braced bay located between grid lines A and B, spanning from grid line ④ to ⑤."
+                },
+                {
+                  "slNo": "11",
+                  "desc": "Type of Eave",
+                  "details": "EAVE GUTTER: A gutter is shown at the eave on both the left and right sides of the building."
+                },
+                {
+                  "slNo": "12",
+                  "desc": "Downtake Pipes",
+                  "details": "DOWN TAKE PIPE: A down take pipe (downspout) is shown connected to the eave on both the left and right sides."
+                },
+                {
+                  "slNo": "13",
+                  "desc": "Fascia",
+                  "details": "suggested value: 0.5 mm color coated"
+                },
+                {
+                  "slNo": "14",
+                  "desc": "Minimum Thickness Built up sections",
+                  "details": "suggested value: 6 mm"
+                },
+                {
+                  "slNo": "15",
+                  "desc": "Minimum Thickness Secondary",
+                  "details": "suggested value: 6 mm"
+                },
+                {
+                  "slNo": "16",
+                  "desc": "Additional Structure (False ceiling)",
+                  "details": "suggested value: 12 mm gypsum board"
+                },
+                {
+                  "slNo": "17",
+                  "desc": "Future Expansion along Width & Length",
+                  "details": "suggested value: 10% of total area"
+                }
+              ],
+              "Design Loads Details": [
+                {
+                  "slNo": "1",
+                  "desc": "Design code",
+                  "details": "IS 800:2007"
+                },
+                {
+                  "slNo": "2",
+                  "desc": "Design Live load (kN/sqm) on Roof",
+                  "details": "1.5 kN/sqm"
+                },
+                {
+                  "slNo": "3",
+                  "desc": "Design Live load (kN/sqm) on Frame",
+                  "details": "3.0 kN/sqm"
+                },
+                {
+                  "slNo": "4",
+                  "desc": "Dead Load (kN/sqm)",
+                  "details": "2.0 kN/sqm"
+                },
+                {
+                  "slNo": "5",
+                  "desc": "Wind Speed (km/hr)",
+                  "details": "120 km/hr"
+                },
+                {
+                  "slNo": "6",
+                  "desc": "Collateral load (kN/sqm)",
+                  "details": "0.5 kN/sqm"
+                },
+                {
+                  "slNo": "7",
+                  "desc": "Utility Load on Columns/Rafter",
+                  "details": "suggested value: 0.5 kN/sqm"
+                },
+                {
+                  "slNo": "8",
+                  "desc": "Temperature Load",
+                  "details": "suggested value: 0.5 kN/sqm"
+                },
+                {
+                  "slNo": "9",
+                  "desc": "Earthquake/Seismic zone",
+                  "details": "II"
+                },
+                {
+                  "slNo": "10",
+                  "desc": "Rainfall Intensity (cm/hour)",
+                  "details": "suggested value: 5 cm/hour"
+                },
+                {
+                  "slNo": "11",
+                  "desc": "Load Combination",
+                  "details": "DL   LL   WL"
+                },
+                {
+                  "slNo": "12",
+                  "desc": "Deflection limit",
+                  "details": "L/360"
+                },
+                {
+                  "slNo": "13",
+                  "desc": "Site locations",
+                  "details": "32-C, Nakoda Nagar II, Udaipur- 313001"
+                }
+              ],
+              "Brick Wall Conditions Details": [
+                {
+                  "slNo": "1",
+                  "desc": "Front Side wall (Along Grid Line A)",
+                  "details": "Up to 3.0 m Ht. BRICK WALL. BY OTHER. Above: 0.5 MM CLADDING SHEET COLOR COATED."
+                },
+                {
+                  "slNo": "2",
+                  "desc": "Back Side wall (Along Grid Line E)",
+                  "details": "Up to 3.0 m Ht. BRICK WALL. BY OTHER. Above: 0.5 MM CLADDING SHEET COLOR COATED."
+                },
+                {
+                  "slNo": "3",
+                  "desc": "Right End wall (Along Grid Line 11)",
+                  "details": "Up to 3.0 m Ht. BRICK WALL. BY OTHER. Above: 0.5 MM CLADDING SHEET COLOR COATED."
+                },
+                {
+                  "slNo": "4",
+                  "desc": "Left End wall (Along Grid Line 1)",
+                  "details": "Up to 3.0 m Ht. BRICK WALL. BY OTHER. Above: 0.5 MM CLADDING SHEET COLOR COATED."
+                }
+              ],
+              "Accessories Details": [
+                {
+                  "slNo": "1",
+                  "desc": "2 mm thick polycarbonate sheets (skylights). GI weld mesh to be considered below the translucent sheet for safety / fall protection system for roof only.",
+                  "details": "SKY LIGHT: Two skylights are shown, one on each slope of the roof."
+                },
+                {
+                  "slNo": "2",
+                  "desc": "Wall lights 2 mm thick translucent polycarbonate sheet",
+                  "details": "suggested value: 2 mm thick"
+                },
+                {
+                  "slNo": "3",
+                  "desc": "Cage Ladder (Lockable and key arrangement)",
+                  "details": "suggested value: Compliant with IS 456"
+                },
+                {
+                  "slNo": "4",
+                  "desc": "A type louvers with weldmesh",
+                  "details": "TURBO VENT: Two turbo vents (or roof ventilators) are shown, one on each slope of the roof, positioned near the ridge."
+                },
+                {
+                  "slNo": "5",
+                  "desc": "Framed Opening for Window",
+                  "details": "suggested value: 1.5 m x 1.5 m"
+                },
+                {
+                  "slNo": "6",
+                  "desc": "Framed Opening for Rolling Shutter",
+                  "details": "suggested value: 2.0 m x 2.0 m"
+                },
+                {
+                  "slNo": "7",
+                  "desc": "Life Line",
+                  "details": "suggested value: Compliant with IS 456"
+                },
+                {
+                  "slNo": "8",
+                  "desc": "Roof Insulation",
+                  "details": "suggested value: 50 mm thickness"
+                },
+                {
+                  "slNo": "9",
+                  "desc": "Wall Insulation",
+                  "details": "suggested value: 50 mm thickness"
+                }
+              ],
+              "Canopy Details - Forward type canopy with liner panel in soffit & without insulation.": [
+                {
+                  "slNo": "1",
+                  "desc": "Location",
+                  "details": "suggested value: Front entrance"
+                },
+                {
+                  "slNo": "2",
+                  "desc": "Width (m)",
+                  "details": "suggested value: 3.0 m"
+                },
+                {
+                  "slNo": "3",
+                  "desc": "Length (m)",
+                  "details": "suggested value: 5.0 m"
+                },
+                {
+                  "slNo": "4",
+                  "desc": "Clear height (m)",
+                  "details": "suggested value: 2.5 m"
+                },
+                {
+                  "slNo": "5",
+                  "desc": "Canopy roof panel",
+                  "details": "suggested value: 0.5 mm thickness"
+                },
+                {
+                  "slNo": "6",
+                  "desc": "Soffit panel fixed below the rafter",
+                  "details": "suggested value: 12 mm thickness"
+                },
+                {
+                  "slNo": "7",
+                  "desc": "Eave Condition",
+                  "details": "suggested value: 1:10 slope"
+                },
+                {
+                  "slNo": "8",
+                  "desc": "Front Fascia",
+                  "details": "suggested value: 0.5 mm color coated"
+                }
+              ],
+              "Framed Opening Details": [
+                {
+                  "slNo": "1",
+                  "desc": "Location",
+                  "details": "suggested value: Main entrance"
+                },
+                {
+                  "slNo": "2",
+                  "desc": "Size",
+                  "details": "suggested value: 2.0 m x 2.0 m"
+                }
+              ],
+              "Surface Preparation Details": [
+                {
+                  "slNo": "1",
+                  "desc": "Primary",
+                  "details": "suggested value: Clean and dry surface"
+                },
+                {
+                  "slNo": "2",
+                  "desc": "Secondary",
+                  "details": "suggested value: Smooth surface finish"
+                }
+              ],
+              "Painting Details": [
+                {
+                  "slNo": "1",
+                  "desc": "Primary",
+                  "details": "suggested value: Epoxy-based paint"
+                },
+                {
+                  "slNo": "2",
+                  "desc": "Secondary",
+                  "details": "suggested value: Weather-resistant paint"
+                },
+                {
+                  "slNo": "3",
+                  "desc": "Anchor bolts",
+                  "details": "suggested value: Corrosion-resistant coating"
+                }
+              ],
+              "Crane Details": [
+                {
+                  "slNo": "1",
+                  "desc": "Nos of Crane",
+                  "details": "5 TON CRANE (SWL); CRANE BRACKET HEIGHT: 8000 BKT TOP"
+                }
+              ],
+              "Partition Wall Details": [
+                {
+                  "slNo": "1",
+                  "desc": "Partition Wall",
+                  "details": "suggested value: 100 mm thick"
+                },
+                {
+                  "slNo": "2",
+                  "desc": "Wall condition",
+                  "details": "suggested value: Smooth finish"
+                },
+                {
+                  "slNo": "3",
+                  "desc": "Sheeting",
+                  "details": "suggested value: Gypsum board"
+                }
+              ],
+              "Mezzanine Floor Details": [
+                {
+                  "slNo": "1",
+                  "desc": "Mezzanine Size",
+                  "details": "suggested value: 100 m²"
+                },
+                {
+                  "slNo": "2",
+                  "desc": "Mezzanine Column Spacing",
+                  "details": "suggested value: 6 m"
+                },
+                {
+                  "slNo": "3",
+                  "desc": "Height",
+                  "details": "suggested value: 2.5 m"
+                },
+                {
+                  "slNo": "4",
+                  "desc": "Live Load",
+                  "details": "suggested value: 3.0 kN/sqm"
+                },
+                {
+                  "slNo": "5",
+                  "desc": "Dead Load",
+                  "details": "suggested value: 2.0 kN/sqm"
+                },
+                {
+                  "slNo": "6",
+                  "desc": "Collateral Load",
+                  "details": "suggested value: 0.5 kN/sqm"
+                },
+                {
+                  "slNo": "7",
+                  "desc": "Staircase and Handrails",
+                  "details": "suggested value: Compliant with IS 456"
+                },
+                {
+                  "slNo": "8",
+                  "desc": "Handrails on Mezzanine",
+                  "details": "suggested value: Minimum height 1.0 m"
+                },
+                {
+                  "slNo": "9",
+                  "desc": "Chaqured Plate",
+                  "details": "suggested value: 6 mm thick"
+                },
+                {
+                  "slNo": "10",
+                  "desc": "Deck Sheet",
+                  "details": "suggested value: Composite deck"
+                },
+                {
+                  "slNo": "11",
+                  "desc": "Lift Cutout at mezzanine level",
+                  "details": "suggested value: 1.5 m x 1.5 m"
+                }
+              ]
+            },
+            "Notes": [
+              "ALL DIMENSIONS ARE IN MM.",
+              "WRITTEN DIMENSIONS TO BE FOLLOWED ONLY.",
+              "Scale: NTS (Not To Scale).",
+              "The explicitly stated overall dimension (24380) in both FLOOR_PLAN and SECTIONS does not match the sum of the individual bay dimensions (23240) provided in FLOOR_PLAN (7745 7750 7745).",
+              "The explicitly stated overall dimension (30480) in FLOOR_PLAN does not match the sum of the individual bay dimensions (29650) provided in the same FLOOR_PLAN (7205 7620 7620 7205).",
+              "Contains critical differences between drawing-based values and source documents requiring review.",
+              "Building Width: Source (Sheet1): 18000 mm X 16220 mm (interpreted as 16220 mm) | Drawing-based: 24380 mm. Status: INCONSISTENT. A significant conflict exists between the source document and drawing dimensions. The values are irreconcilable.",
+              "Building Length: Source (Sheet1): 18000 mm X 16220 mm (interpreted as 18000 mm) | Drawing-based: 30480 mm. Status: INCONSISTENT. A significant conflict exists between the source document and drawing dimensions. The values are irreconcilable.",
+              "Bay Spacing (Side Wall): 7205 + 2@7620 + 7205 mm. Status: VERIFIED. Value is derived from explicit dimensions on the GENERAL ARRANGEMENT drawing. No value was provided in the source document.",
+              "Roof Slope: Not Specified. Status: INCONSISTENT. Value was not found in the provided source documents or drawings.",
+              "Skylights: Required. Status: VERIFIED. Presence is confirmed in drawings. The source document provides material specifications ('2 mm thick polycarbonate sheets') but not quantity or location.",
+              "Building Width & Length: Source document specifies dimensions of '18000 mm X 16220 mm'. Drawings show an overall width of 24380 mm and length of 30480 mm. Impact: The dimensions in the source and drawings are fundamentally different. Confirmation is required to determine the correct building size.",
+              "Roof Slope: The Roof Slope is not specified in the source document or on any drawings. Impact: This is a critical design parameter that must be defined. Clarification is required.",
+              "Data contains unresolved inconsistencies and conflicts between source documents and drawings. Use with caution."
+            ],
+            "MarketingContact": "Contact Person: GARVIT AGRAWAL; Mobile Numbers: 8619015622, 7568204820; Email: thesunilandcompany@yahoo.com"
+          },
+          "comment_json": {
+            "comments": [],
+            "summary": "Human verification changes submitted."
+          },
+          "version": 2,
+          "file_hash": "60b666693b650155ecededba1ec517c99e185681133f73121feaffb14d5b1787",
+          "status": "approved",
+          "is_bot": false,
+          "verified_by": {
+            "id": "692720b6cf400c5a58a63e19",
+            "name": "Tester"
+          },
+          "verified_at": null,
+          "approved_by": {
+            "id": "692720b6cf400c5a58a63e19",
+            "name": "Tester"
+          },
+          "approved_at": null,
+          "created_at": "2026-01-12T17:11:15",
+          "updated_at": "2026-01-12T17:11:15",
+          "endTime": null,
+          "created_by": "692729d81e26bc74fe51d0ee",
+          "created_by_name": null,
+          "last_modified_by": "692720b6cf400c5a58a63e19",
+          "webhook_source": "qrf_webhook",
+          "metadata": {
+            "file_count": 1,
+            "supporting_files_count": 1,
+            "qrf_files_count": 0,
+            "original_file_ids": [
+              "6b157919-de69-4830-a876-9b0a3a13c86d"
+            ],
+            "company_ids": [
+              "WNFACHC1I4"
+            ],
+            "file_details": [
+              {
+                "file_id": "6b157919-de69-4830-a876-9b0a3a13c86d",
+                "file_path": "PROJECT603931/WNFACHC1I4/1e59e970-9cd3-41d0-9673-a36aecaad490.pdf",
+                "company_id": "WNFACHC1I4",
+                "filename": "S-2447 BANSWARA PROPOSAL 5 TON CRANE.pdf",
+                "is_qrf": false
+              }
+            ],
+            "company_file_mapping": {
+              "WNFACHC1I4": {
+                "file_ids": [
+                  "6b157919-de69-4830-a876-9b0a3a13c86d"
+                ],
+                "file_paths": [
+                  "PROJECT603931/WNFACHC1I4/1e59e970-9cd3-41d0-9673-a36aecaad490.pdf"
+                ],
+                "filenames": [
+                  "S-2447 BANSWARA PROPOSAL 5 TON CRANE.pdf"
+                ],
+                "qrf_files": [],
+                "supporting_files": [
+                  {
+                    "file_id": "6b157919-de69-4830-a876-9b0a3a13c86d",
+                    "filename": "S-2447 BANSWARA PROPOSAL 5 TON CRANE.pdf",
+                    "file_path": "PROJECT603931/WNFACHC1I4/1e59e970-9cd3-41d0-9673-a36aecaad490.pdf"
+                  }
+                ]
+              }
+            },
+            "company_statistics": {
+              "WNFACHC1I4": {
+                "total_files": 1,
+                "qrf_count": 0,
+                "supporting_count": 1,
+                "total_size": 0.21
+              }
+            },
+            "mapped_extracted_files": null,
+            "submitted_at": "2026-01-12T10:12:36.955754"
+          }
+        }
+      ]
+    }
+  ],
+  "status": 200,
+  "process_type": [
+    "boq",
+    "qrf"
+  ]
+}
